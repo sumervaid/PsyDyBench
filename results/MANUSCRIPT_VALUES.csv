@@ -1,0 +1,25 @@
+key,value,description,source_file,producing_script,date,notes
+N_employees_phase14,662,Employees per condition in Phase 14 ablation,results/phase14/comparison_report.md,ablation_runner_v4,2026-04-03,matched across all 8 conditions
+N_employees_indicator_corpus,696,Employees in inverse corpus indicator matrix,data/raw/inverse_corpus_prepared_REAL_DO_NOT_PUSH.csv,prepare_inverse_corpus,2026-04,REAL data; gitignored
+n_anchor_pairs,116,Indicator-state pairs with defined observed r,results/phase14/recovery/per_model_recovery.csv,per_model_recovery_phase14.py,2026-06-17,118 defined minus NaN
+tt_wsd_target,0.451,Team Trust within-person SD target,results/phase14/comparison_report.md,ablation_runner_v4,2026-04-03,literature/ESM target
+tt_wsd_nano,0.486,TT within-SD gpt-4.1-nano (realistic),results/phase14/comparison_report.md,ablation_runner_v4,2026-04-03,only model in realistic range
+tt_wsd_mini,0.213,TT within-SD gpt-4.1-mini,results/phase14/comparison_report.md,ablation_runner_v4,2026-04-03,
+tt_wsd_gpt41,0.161,TT within-SD gpt-4.1,results/phase14/comparison_report.md,ablation_runner_v4,2026-04-03,
+tt_wsd_gpt51,0.085,TT within-SD gpt-5.1 (frozen),results/phase14/comparison_report.md,ablation_runner_v4,2026-04-03,nearly constant
+internal_validity_nano,0.750,the internal-validity battery aggregate gpt-4.1-nano (pre-L3-fix),results/phase14/comparison_report.md,ablation_runner_v4,2026-04-03,post-L3-fix ~0.875-0.889; cite fix
+internal_validity_mini,0.778,the internal-validity battery aggregate gpt-4.1-mini,results/phase14/comparison_report.md,ablation_runner_v4,2026-04-03,pre-L3-fix
+internal_validity_gpt41,0.778,the internal-validity battery aggregate gpt-4.1,results/phase14/comparison_report.md,ablation_runner_v4,2026-04-03,pre-L3-fix
+internal_validity_gpt51,0.736,the internal-validity battery aggregate gpt-5.1,results/phase14/comparison_report.md,ablation_runner_v4,2026-04-03,pre-L3-fix
+recovery_pooled_dir_nano,81.9,Between-person recovery direction-match pct nano,results/phase14/recovery/per_model_recovery.csv,per_model_recovery_phase14.py,2026-06-17,
+recovery_pooled_dir_mini,85.3,Between-person recovery dir-match pct mini,results/phase14/recovery/per_model_recovery.csv,per_model_recovery_phase14.py,2026-06-17,
+recovery_pooled_dir_gpt41,85.3,Between-person recovery dir-match pct gpt-4.1,results/phase14/recovery/per_model_recovery.csv,per_model_recovery_phase14.py,2026-06-17,
+recovery_pooled_dir_gpt51,84.5,Between-person recovery dir-match pct gpt-5.1,results/phase14/recovery/per_model_recovery.csv,per_model_recovery_phase14.py,2026-06-17,frozen model still recovers
+recovery_pooled_rho_nano,0.633,Between-person recovery signed Spearman rho nano,results/phase14/recovery/per_model_recovery.csv,per_model_recovery_phase14.py,2026-06-17,
+recovery_pooled_rho_gpt51,0.649,Between-person recovery signed Spearman rho gpt-5.1,results/phase14/recovery/per_model_recovery.csv,per_model_recovery_phase14.py,2026-06-17,
+obs_meanabsr_latent,0.321,Mean abs pooled r for LATENT indicators,results/observability/RESULTS_observability_predictiveness.md,indicator_observability_predictiveness.py,2026-06-18,
+obs_meanabsr_sensable,0.170,Mean abs pooled r for SENSABLE indicators,results/observability/RESULTS_observability_predictiveness.md,indicator_observability_predictiveness.py,2026-06-18,latent ~1.9x sensable
+wp_multivariate_r_WE,0.43,Within-person multivariate r work engagement (synthetic corpus),genagentsemployees/data/synthetic_corpus/aggregated/within_person_results.json,within_person analysis,2026,100 synthetic employees
+wp_multivariate_r_PS,0.35,Within-person multivariate r psych safety,genagentsemployees/data/synthetic_corpus/aggregated/within_person_results.json,within_person analysis,2026,
+wp_multivariate_r_WC,0.37,Within-person multivariate r work creativity,genagentsemployees/data/synthetic_corpus/aggregated/within_person_results.json,within_person analysis,2026,
+wp_multivariate_r_TT,0.32,Within-person multivariate r team trust,genagentsemployees/data/synthetic_corpus/aggregated/within_person_results.json,within_person analysis,2026,

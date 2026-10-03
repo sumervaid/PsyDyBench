@@ -1,0 +1,254 @@
+{
+  "n_personas": 10,
+  "days_per_persona": 6,
+  "seed": 42,
+  "norms_file": "data/seeds/norms.json",
+  "state_targets": {
+    "work_engagement": {
+      "within_sd_target": 0.7379,
+      "between_sd_target": 0.8158,
+      "icc": 0.55,
+      "realized_between_sd": 0.8158
+    },
+    "psych_safety": {
+      "within_sd_target": 0.3889,
+      "between_sd_target": 0.3889,
+      "icc": 0.5,
+      "realized_between_sd": 0.3889
+    },
+    "work_creativity": {
+      "within_sd_target": 0.601,
+      "between_sd_target": 0.601,
+      "icc": 0.5,
+      "realized_between_sd": 0.601
+    },
+    "team_trust": {
+      "within_sd_target": 0.4696,
+      "between_sd_target": 0.5191,
+      "icc": 0.55,
+      "realized_between_sd": 0.5191
+    }
+  },
+  "personas": [
+    {
+      "employee_id": "SYN-0001",
+      "big_five": {
+        "extraversion": 2.93,
+        "agreeableness": 6.75,
+        "conscientiousness": 3.91,
+        "emotional_stability": 4.34,
+        "openness": 5.69
+      },
+      "baselines": {
+        "work_engagement": 5.0391,
+        "psych_safety": 2.2863,
+        "work_creativity": 2.7923,
+        "team_trust": 4.3989
+      },
+      "within_sds": {
+        "work_engagement": 0.7379,
+        "psych_safety": 0.3889,
+        "work_creativity": 0.601,
+        "team_trust": 0.4696
+      }
+    },
+    {
+      "employee_id": "SYN-0002",
+      "big_five": {
+        "extraversion": 5.71,
+        "agreeableness": 5.78,
+        "conscientiousness": 4.84,
+        "emotional_stability": 5.7,
+        "openness": 6.16
+      },
+      "baselines": {
+        "work_engagement": 6.0429,
+        "psych_safety": 3.0741,
+        "work_creativity": 3.4699,
+        "team_trust": 3.823
+      },
+      "within_sds": {
+        "work_engagement": 0.7379,
+        "psych_safety": 0.3889,
+        "work_creativity": 0.601,
+        "team_trust": 0.4696
+      }
+    },
+    {
+      "employee_id": "SYN-0003",
+      "big_five": {
+        "extraversion": 4.43,
+        "agreeableness": 4.81,
+        "conscientiousness": 3.78,
+        "emotional_stability": 3.13,
+        "openness": 3.87
+      },
+      "baselines": {
+        "work_engagement": 3.3528,
+        "psych_safety": 2.8248,
+        "work_creativity": 2.6726,
+        "team_trust": 3.3012
+      },
+      "within_sds": {
+        "work_engagement": 0.7379,
+        "psych_safety": 0.3889,
+        "work_creativity": 0.601,
+        "team_trust": 0.4696
+      }
+    },
+    {
+      "employee_id": "SYN-0004",
+      "big_five": {
+        "extraversion": 5.82,
+        "agreeableness": 5.46,
+        "conscientiousness": 4.22,
+        "emotional_stability": 5.56,
+        "openness": 4.84
+      },
+      "baselines": {
+        "work_engagement": 5.0682,
+        "psych_safety": 3.3726,
+        "work_creativity": 4.3406,
+        "team_trust": 3.8708
+      },
+      "within_sds": {
+        "work_engagement": 0.7379,
+        "psych_safety": 0.3889,
+        "work_creativity": 0.601,
+        "team_trust": 0.4696
+      }
+    },
+    {
+      "employee_id": "SYN-0005",
+      "big_five": {
+        "extraversion": 3.7,
+        "agreeableness": 5.9,
+        "conscientiousness": 5.55,
+        "emotional_stability": 4.27,
+        "openness": 5.7
+      },
+      "baselines": {
+        "work_engagement": 4.7498,
+        "psych_safety": 3.3121,
+        "work_creativity": 4.0648,
+        "team_trust": 3.1447
+      },
+      "within_sds": {
+        "work_engagement": 0.7379,
+        "psych_safety": 0.3889,
+        "work_creativity": 0.601,
+        "team_trust": 0.4696
+      }
+    },
+    {
+      "employee_id": "SYN-0006",
+      "big_five": {
+        "extraversion": 5.27,
+        "agreeableness": 5.27,
+        "conscientiousness": 5.03,
+        "emotional_stability": 4.17,
+        "openness": 4.86
+      },
+      "baselines": {
+        "work_engagement": 4.5956,
+        "psych_safety": 3.323,
+        "work_creativity": 4.3934,
+        "team_trust": 4.3331
+      },
+      "within_sds": {
+        "work_engagement": 0.7379,
+        "psych_safety": 0.3889,
+        "work_creativity": 0.601,
+        "team_trust": 0.4696
+      }
+    },
+    {
+      "employee_id": "SYN-0007",
+      "big_five": {
+        "extraversion": 1.94,
+        "agreeableness": 2.92,
+        "conscientiousness": 3.75,
+        "emotional_stability": 3.32,
+        "openness": 4.17
+      },
+      "baselines": {
+        "work_engagement": 3.9411,
+        "psych_safety": 2.3609,
+        "work_creativity": 2.9634,
+        "team_trust": 2.7155
+      },
+      "within_sds": {
+        "work_engagement": 0.7379,
+        "psych_safety": 0.3889,
+        "work_creativity": 0.601,
+        "team_trust": 0.4696
+      }
+    },
+    {
+      "employee_id": "SYN-0008",
+      "big_five": {
+        "extraversion": 3.25,
+        "agreeableness": 3.22,
+        "conscientiousness": 4.13,
+        "emotional_stability": 4.21,
+        "openness": 4.55
+      },
+      "baselines": {
+        "work_engagement": 5.7371,
+        "psych_safety": 2.4959,
+        "work_creativity": 3.7187,
+        "team_trust": 3.3777
+      },
+      "within_sds": {
+        "work_engagement": 0.7379,
+        "psych_safety": 0.3889,
+        "work_creativity": 0.601,
+        "team_trust": 0.4696
+      }
+    },
+    {
+      "employee_id": "SYN-0009",
+      "big_five": {
+        "extraversion": 4.28,
+        "agreeableness": 4.17,
+        "conscientiousness": 3.64,
+        "emotional_stability": 3.93,
+        "openness": 4.52
+      },
+      "baselines": {
+        "work_engagement": 3.9562,
+        "psych_safety": 3.1521,
+        "work_creativity": 4.1052,
+        "team_trust": 3.9201
+      },
+      "within_sds": {
+        "work_engagement": 0.7379,
+        "psych_safety": 0.3889,
+        "work_creativity": 0.601,
+        "team_trust": 0.4696
+      }
+    },
+    {
+      "employee_id": "SYN-0010",
+      "big_five": {
+        "extraversion": 5.02,
+        "agreeableness": 5.07,
+        "conscientiousness": 4.21,
+        "emotional_stability": 3.54,
+        "openness": 4.71
+      },
+      "baselines": {
+        "work_engagement": 5.5173,
+        "psych_safety": 2.7982,
+        "work_creativity": 3.479,
+        "team_trust": 4.1151
+      },
+      "within_sds": {
+        "work_engagement": 0.7379,
+        "psych_safety": 0.3889,
+        "work_creativity": 0.601,
+        "team_trust": 0.4696
+      }
+    }
+  ]
+}

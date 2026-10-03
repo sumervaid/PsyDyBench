@@ -1,0 +1,23 @@
+{
+  "indicator": "life_work_family_demands",
+  "state": "psych_safety_state",
+  "claimed_meta_r": -0.16,
+  "verified_meta_r": null,
+  "source_doi": "https://doi.org/10.1111/j.1744-6570.2008.00113.x",
+  "source_title": "A META\u2010ANALYSIS OF WORK DEMAND STRESSORS AND JOB PERFORMANCE: EXAMINING MAIN AND MODERATING EFFECTS",
+  "source_year": 2008,
+  "source_openalex_id": "https://openalex.org/W2131005936",
+  "citation_claimed": "Bilal et al. (2020) Front Psych",
+  "citation_matched": false,
+  "evidence_quote": "We quantitatively integrated 169 samples ( N = 35,265 employees) that have been used to investigate the relationships of the following 7 work\u2010related stressors with job performance: role ambiguity, role conflict, role overload, job insecurity, work\u2013family conflict, environmental uncertainty, and situational constraints",
+  "sample_n": 35265,
+  "n_studies_k": 169,
+  "confidence_claimed": "low",
+  "confidence_extraction": "low",
+  "abs_deviation": null,
+  "status": "oa_effect_not_found",
+  "extracted_utc": "2026-06-19T17:44:06.496625+00:00",
+  "note": "Meta-analytic source located but no focal correlation present in the abstract; requires full-text human extraction.",
+  "oa": true,
+  "oa_pdf_url": "https://eprints.lancs.ac.uk/id/eprint/45119/1/10.pdf"
+}

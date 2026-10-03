@@ -1,0 +1,19 @@
+{
+  "indicator": "life_work_morning_mood",
+  "state": "team_trust_state",
+  "claimed_meta_r": "0.18",
+  "citation": "Mislin et al. (2015) OBH meta: affect \u2192 trust decisions",
+  "construct_match": "Morning mood \u2192 Trust (affective priming)",
+  "confidence": "low",
+  "queries": [
+    "Morning mood Trust affective priming trust in team meta-analysis",
+    "Mislin 2015 trust in team meta-analysis",
+    "title.search:Morning mood trust meta-analytic year:2015",
+    "title.search:mood trust meta-analytic year:2015",
+    "title.search:Morning mood trust year:2015",
+    "title.search:trust meta-analytic year:2015"
+  ],
+  "retrieved_utc": "2026-06-19T17:45:23.805166+00:00",
+  "n_candidates": 0,
+  "candidates": []
+}

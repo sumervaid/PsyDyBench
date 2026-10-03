@@ -1,0 +1,19 @@
+{
+  "indicator": "social_support_given_count",
+  "state": "team_trust_state",
+  "claimed_meta_r": "0.3",
+  "citation": "Dirks & Ferrin (2002) JAP: benevolence behaviors \u2192 trust",
+  "construct_match": "Giving support \u2192 Trust (benevolence signal)",
+  "confidence": "medium",
+  "queries": [
+    "Giving support Trust benevolence signal trust in team meta-analysis",
+    "Dirks 2002 trust in team meta-analysis",
+    "title.search:Giving support trust meta-analytic year:2002",
+    "title.search:support trust meta-analytic year:2002",
+    "title.search:Giving support trust year:2002",
+    "title.search:trust meta-analytic year:2002"
+  ],
+  "retrieved_utc": "2026-06-19T17:45:20.436300+00:00",
+  "n_candidates": 0,
+  "candidates": []
+}

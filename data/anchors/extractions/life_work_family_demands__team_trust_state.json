@@ -1,0 +1,23 @@
+{
+  "indicator": "life_work_family_demands",
+  "state": "team_trust_state",
+  "claimed_meta_r": -0.12,
+  "verified_meta_r": null,
+  "source_doi": "https://doi.org/10.1002/job.2375",
+  "source_title": "Thriving at work: A meta\u2010analysis",
+  "source_year": 2019,
+  "source_openalex_id": "https://openalex.org/W2942090227",
+  "citation_claimed": "Spillover theory: family demands \u2192 reduced relational investment",
+  "citation_matched": false,
+  "evidence_quote": "Summary Thriving at work refers to a positive psychological state characterized by a joint sense of vitality and learning. On the basis of Spreitzer and colleagues' model, we present a comprehensive meta\u2010analysis of antecedents and outcomes of thriving at work ( K = 73 independent samples, N = 21,739 employees). Result",
+  "sample_n": 21739,
+  "n_studies_k": 73,
+  "confidence_claimed": "low",
+  "confidence_extraction": "low",
+  "abs_deviation": null,
+  "status": "oa_pdf_unreadable",
+  "extracted_utc": "2026-06-19T17:44:06.497211+00:00",
+  "note": "Meta-analytic source located but no focal correlation present in the abstract; requires full-text human extraction.",
+  "oa": true,
+  "oa_pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/job.2375"
+}

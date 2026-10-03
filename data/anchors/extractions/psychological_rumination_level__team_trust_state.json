@@ -1,0 +1,22 @@
+{
+  "indicator": "psychological_rumination_level",
+  "state": "team_trust_state",
+  "claimed_meta_r": -0.18,
+  "verified_meta_r": null,
+  "source_doi": "https://doi.org/10.1037/0021-9010.92.4.909",
+  "source_title": "Trust, trustworthiness, and trust propensity: A meta-analytic test of their unique relationships with risk taking and job performance.",
+  "source_year": 2007,
+  "source_openalex_id": "https://openalex.org/W2143573737",
+  "citation_claimed": "Colquitt et al. (2007); negative cognition path",
+  "citation_matched": true,
+  "evidence_quote": "The trust literature distinguishes trustworthiness (the ability, benevolence, and integrity of a trustee) and trust propensity (a dispositional willingness to rely on others) from trust (the intention to accept vulnerability to a trustee based on positive expectations of his or her actions). Although this distinction h",
+  "sample_n": null,
+  "n_studies_k": 132,
+  "confidence_claimed": "low",
+  "confidence_extraction": "low",
+  "abs_deviation": null,
+  "status": "source_found_effect_in_pdf",
+  "extracted_utc": "2026-06-19T17:44:06.534469+00:00",
+  "note": "Meta-analytic source located but no focal correlation present in the abstract; requires full-text human extraction.",
+  "oa": false
+}

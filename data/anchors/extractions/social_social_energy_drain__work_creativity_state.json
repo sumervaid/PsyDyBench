@@ -1,0 +1,23 @@
+{
+  "indicator": "social_social_energy_drain",
+  "state": "work_creativity_state",
+  "claimed_meta_r": -0.18,
+  "verified_meta_r": -0.236,
+  "source_doi": "https://doi.org/10.1016/j.tourman.2020.104099",
+  "source_title": "Antecedents and outcomes of emotional labour in hospitality and tourism: A meta-analysis",
+  "source_year": 2020,
+  "source_openalex_id": "https://openalex.org/W3006460989",
+  "citation_claimed": "Amabile et al. (2005) ASQ: emotional exhaustion \u2192 creativity",
+  "citation_matched": false,
+  "evidence_quote": "surface acting negatively correlates with ... creativity (\u03c1 = -0.236), supporting Hypothesis 8b.",
+  "sample_n": null,
+  "n_studies_k": null,
+  "confidence_claimed": "low",
+  "confidence_extraction": "full_text",
+  "abs_deviation": null,
+  "status": "verified",
+  "extracted_utc": "2026-06-19T17:44:06.554557+00:00",
+  "note": "Meta-analytic source located but no focal correlation present in the abstract; requires full-text human extraction.",
+  "oa": true,
+  "oa_pdf_url": "https://publications.aston.ac.uk/id/eprint/41203/1/Emotional_labour_Tourism_Management.pdf"
+}

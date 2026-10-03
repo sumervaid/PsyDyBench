@@ -1,0 +1,21 @@
+{
+  "indicator": "social_conflict_instances",
+  "state": "work_creativity_state",
+  "claimed_meta_r": -0.12,
+  "verified_meta_r": null,
+  "source_doi": null,
+  "source_title": "A meta-analytical approach to qualitative studies in music education: a new model applied to creativity and composition",
+  "source_year": 2004,
+  "source_openalex_id": "https://openalex.org/W1831721969",
+  "citation_claimed": "De Dreu & Weingart (2003) JAP meta",
+  "citation_matched": true,
+  "evidence_quote": "Qualitative methods are well established in music education research. This has led to an interesting body of research, each project investigating in depth a specific situation or phenomenon. One way of combining the advantages of qualitative studies with the aim of acquiring general theories Of music education might be",
+  "sample_n": null,
+  "n_studies_k": null,
+  "confidence_claimed": "medium",
+  "confidence_extraction": "low",
+  "abs_deviation": null,
+  "status": "source_found_effect_in_pdf",
+  "extracted_utc": "2026-06-19T17:44:06.544503+00:00",
+  "note": "Meta-analytic source located but no focal correlation present in the abstract; requires full-text human extraction."
+}

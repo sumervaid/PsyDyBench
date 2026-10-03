@@ -1,0 +1,22 @@
+{
+  "indicator": "behavioral_task_interruption_count",
+  "state": "work_creativity_state",
+  "claimed_meta_r": -0.15,
+  "verified_meta_r": null,
+  "source_doi": "https://doi.org/10.1348/000712603762842084",
+  "source_title": "Mental imagery and creativity: A meta\u2010analytic review study",
+  "source_year": 2003,
+  "source_openalex_id": "https://openalex.org/W2004800122",
+  "citation_claimed": "Madjar, Oldham & Pratt (2002) AMJ; hindrance path",
+  "citation_matched": false,
+  "evidence_quote": "The reports of many creative individuals suggest the use of mental imagery in scientific and artistic production. A variety of protocols have tested the association between mental imagery and creativity, but the individual differences approach has been most frequently employed. This approach is assessed here through a",
+  "sample_n": null,
+  "n_studies_k": null,
+  "confidence_claimed": "low",
+  "confidence_extraction": "low",
+  "abs_deviation": null,
+  "status": "source_found_effect_in_pdf",
+  "extracted_utc": "2026-06-19T17:44:06.487909+00:00",
+  "note": "Meta-analytic source located but no focal correlation present in the abstract; requires full-text human extraction.",
+  "oa": false
+}

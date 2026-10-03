@@ -1,0 +1,4 @@
+model,n_cultures,invariance_mean_abs_dr,xcult_conv_dirmatch_pct,n_anchors
+GEMMA_3_27B_IT,6,0.019,50.0,4
+GEMMA_3_4B_IT,6,0.038,75.0,4
+QWEN_2_5_72B_INSTRUCT,6,0.014,75.0,4

@@ -1,0 +1,22 @@
+{
+  "indicator": "psychological_stress_level",
+  "state": "psych_safety_state",
+  "claimed_meta_r": -0.25,
+  "verified_meta_r": null,
+  "source_doi": "https://doi.org/10.1111/peps.12183",
+  "source_title": "Psychological Safety: A Meta\u2010Analytic Review and Extension",
+  "source_year": 2016,
+  "source_openalex_id": "https://openalex.org/W2495600728",
+  "citation_claimed": "Inferred from Frazier et al. (2017) supportive context (.49)",
+  "citation_matched": false,
+  "evidence_quote": "Although psychological safety research has flourished in recent years, and despite the empirical support for the important role of psychological safety in the workplace, several critical questions remain. In order to address these questions, we aggregate theoretical and empirical works, and draw on 136 independent samp",
+  "sample_n": null,
+  "n_studies_k": 136,
+  "confidence_claimed": "low",
+  "confidence_extraction": "low",
+  "abs_deviation": null,
+  "status": "source_found_effect_in_pdf",
+  "extracted_utc": "2026-06-19T17:44:06.536011+00:00",
+  "note": "Meta-analytic source located but no focal correlation present in the abstract; requires full-text human extraction.",
+  "oa": false
+}

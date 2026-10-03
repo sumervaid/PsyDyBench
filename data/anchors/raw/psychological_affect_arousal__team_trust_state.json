@@ -1,0 +1,19 @@
+{
+  "indicator": "psychological_affect_arousal",
+  "state": "team_trust_state",
+  "claimed_meta_r": "0.15",
+  "citation": "Jones & George (1998) AMR: emotional state \u2192 trust formation",
+  "construct_match": "Activated affect \u2192 Trust (engagement path)",
+  "confidence": "low",
+  "queries": [
+    "Activated affect Trust engagement path trust in team meta-analysis",
+    "Jones 1998 trust in team meta-analysis",
+    "title.search:Activated affect trust meta-analytic year:1998",
+    "title.search:affect trust meta-analytic year:1998",
+    "title.search:Activated affect trust year:1998",
+    "title.search:trust meta-analytic year:1998"
+  ],
+  "retrieved_utc": "2026-06-19T17:45:16.984521+00:00",
+  "n_candidates": 0,
+  "candidates": []
+}

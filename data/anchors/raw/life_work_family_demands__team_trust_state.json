@@ -1,0 +1,18 @@
+{
+  "indicator": "life_work_family_demands",
+  "state": "team_trust_state",
+  "claimed_meta_r": "-0.12",
+  "citation": "Spillover theory: family demands \u2192 reduced relational investment",
+  "construct_match": "Family demands \u2192 Trust (reduced social capacity)",
+  "confidence": "low",
+  "queries": [
+    "Family demands Trust reduced social capacity trust in team meta-analysis",
+    "title.search:Family demands trust meta-analytic year:None",
+    "title.search:demands trust meta-analytic year:None",
+    "title.search:Family demands trust year:None",
+    "title.search:trust meta-analytic year:None"
+  ],
+  "retrieved_utc": "2026-06-19T17:45:32.796038+00:00",
+  "n_candidates": 0,
+  "candidates": []
+}

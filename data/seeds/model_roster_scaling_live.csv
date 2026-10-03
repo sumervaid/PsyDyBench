@@ -1,0 +1,49 @@
+cell,model_id,provider,family,params_b,active_params_b,kind,role,is_variant,already_run,rationale
+1,meta-llama/llama-3.2-1b-instruct,openrouter,Llama-3.x,1,1,dense,ladder,N,N,Llama dense ladder 1B
+2,meta-llama/llama-3.2-3b-instruct,openrouter,Llama-3.x,3,3,dense,ladder,N,N,Llama dense ladder 3B
+3,meta-llama/llama-3.1-8b-instruct,openrouter,Llama-3.x,8,8,dense,ladder,N,Y,Llama dense ladder 8B
+4,meta-llama/llama-3.3-70b-instruct,openrouter,Llama-3.x,70,70,dense,ladder,N,Y,Llama dense ladder 70B
+5,google/gemma-3-4b-it,openrouter,Gemma-3,4,4,dense,ladder,N,Y,Gemma-3 dense ladder 4B
+6,google/gemma-3-12b-it,openrouter,Gemma-3,12,12,dense,ladder,N,Y,Gemma-3 dense ladder 12B
+7,google/gemma-3-27b-it,openrouter,Gemma-3,27,27,dense,ladder,N,Y,Gemma-3 dense ladder 27B
+8,qwen/qwen3-8b,openrouter,Qwen3,8,8,dense,ladder,N,N,Qwen3 dense ladder 8B
+9,qwen/qwen3-14b,openrouter,Qwen3,14,14,dense,ladder,N,N,Qwen3 dense ladder 14B
+10,qwen/qwen3-32b,openrouter,Qwen3,32,32,dense,ladder,N,N,Qwen3 dense ladder 32B
+11,qwen/qwen-2.5-7b-instruct,openrouter,Qwen2.5,7,7,dense,ladder,N,Y,Qwen2.5 dense ladder 7B
+12,qwen/qwen-2.5-72b-instruct,openrouter,Qwen2.5,72,72,dense,ladder,N,Y,Qwen2.5 dense ladder 72B
+13,microsoft/phi-4,openrouter,Phi,14,14,dense,breadth,N,N,family breadth (Microsoft) ~14B
+14,ibm-granite/granite-4.1-8b,openrouter,Granite,8,8,dense,breadth,N,N,family breadth (IBM) 8B
+15,mistralai/mistral-small-3.2-24b-instruct,openrouter,Mistral,24,24,dense,breadth,N,Y,family breadth (Mistral) 24B
+16,google/gemma-2-27b-it,openrouter,Gemma-2,27,27,dense,breadth,Y,N,cross-generation check vs Gemma-3-27B
+17,openai/gpt-oss-20b,openrouter,GPT-OSS,21,3.6,moe,moe_series,N,N,MoE total21/active3.6
+18,openai/gpt-oss-120b,openrouter,GPT-OSS,117,5.1,moe,moe_series,N,Y,MoE total117/active5.1
+19,qwen/qwen3-30b-a3b-instruct-2507,openrouter,Qwen3-MoE,30,3,moe,moe_series,N,N,MoE total30/active3
+20,qwen/qwen3-235b-a22b-2507,openrouter,Qwen3-MoE,235,22,moe,moe_series,N,N,MoE total235/active22
+21,meta-llama/llama-4-maverick,openrouter,Llama-4,400,17,moe,moe_series,N,Y,MoE frontier total~400/active17
+22,deepseek/deepseek-v3.2,openrouter,DeepSeek,671,37,moe,moe_series,N,Y,MoE frontier non-reasoning
+23,deepseek/deepseek-r1-0528,openrouter,DeepSeek,671,37,reasoning,reasoning,N,Y,reasoning vs v3.2
+24,qwen/qwen3-30b-a3b-thinking-2507,openrouter,Qwen3-MoE,30,3,reasoning,reasoning,N,N,reasoning sibling of cell 19
+26,gpt-4.1,openai,OpenAI,,,dense,reference,N,Y,closed reference (params unknown)
+27,gpt-5.5,openai,OpenAI,,,dense,reference,N,Y,closed frontier reference
+28,anthropic/claude-sonnet-4,openrouter,Anthropic,,,dense,reference,N,N,closed reference (cross-lab)
+30,google/gemini-2.5-pro,openrouter,Gemini,,,dense,reference,N,N,closed frontier reference
+31,google/gemini-2.5-flash,openrouter,Gemini,,,dense,reference,N,N,closed small reference
+32,meta-llama/llama-3-8b-instruct,openrouter,Llama-3.0,8,8,dense,breadth,Y,N,Llama gen-1 8B (cross-gen point)
+33,meta-llama/llama-3.1-70b-instruct,openrouter,Llama-3.x,70,70,dense,breadth,Y,N,Llama-3.1 70B (vs 3.3 70B)
+34,deepseek/deepseek-r1-distill-llama-70b,openrouter,DeepSeek-distill,70,70,reasoning,reasoning,Y,N,reasoning distill into dense 70B
+35,qwen/qwen-2.5-coder-32b-instruct,openrouter,Qwen2.5,32,32,dense,breadth,Y,N,Qwen2.5 32B (coder variant; size point)
+36,qwen/qwen3.5-9b,openrouter,Qwen3.5,9,9,dense,breadth,Y,N,Qwen3.5 dense 9B (version variant)
+37,qwen/qwen3.5-27b,openrouter,Qwen3.5,27,27,dense,breadth,Y,N,Qwen3.5 dense 27B
+38,qwen/qwen3.6-27b,openrouter,Qwen3.6,27,27,dense,breadth,Y,N,Qwen3.6 dense 27B
+39,qwen/qwen3-30b-a3b,openrouter,Qwen3-MoE,30,3,moe,moe_series,Y,N,Qwen3 MoE 30/3 (earlier variant)
+40,qwen/qwen3-235b-a22b,openrouter,Qwen3-MoE,235,22,moe,moe_series,Y,N,Qwen3 MoE 235/22 (earlier variant)
+41,qwen/qwen3.5-122b-a10b,openrouter,Qwen3.5-MoE,122,10,moe,moe_series,Y,N,Qwen3.5 MoE 122/10
+42,google/gemma-3n-e4b-it,openrouter,Gemma-3n,4,4,dense,breadth,Y,N,Gemma-3n efficient ~4B
+43,google/gemma-4-31b-it,openrouter,Gemma-4,31,31,dense,breadth,Y,N,Gemma-4 dense 31B
+44,google/gemma-4-26b-a4b-it,openrouter,Gemma-4-MoE,26,4,moe,moe_series,Y,N,Gemma-4 MoE 26/4
+45,mistralai/mistral-small-24b-instruct-2501,openrouter,Mistral,24,24,dense,breadth,Y,N,Mistral-Small 24B (2501)
+46,mistralai/mistral-small-3.1-24b-instruct,openrouter,Mistral,24,24,dense,breadth,Y,N,Mistral-Small 24B (3.1)
+47,mistralai/mixtral-8x22b-instruct,openrouter,Mixtral,141,39,moe,moe_series,Y,N,Mixtral MoE 141/39
+48,microsoft/phi-4-mini-instruct,openrouter,Phi,3.8,3.8,dense,breadth,Y,N,Phi-4-mini ~3.8B
+49,ibm-granite/granite-4.0-h-micro,openrouter,Granite,3,3,dense,breadth,Y,N,Granite micro ~3B
+50,openai/gpt-oss-safeguard-20b,openrouter,GPT-OSS,21,3.6,moe,moe_series,Y,N,gpt-oss-safeguard MoE 21/3.6

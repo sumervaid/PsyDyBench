@@ -1,0 +1,23 @@
+{
+  "indicator": "behavioral_task_variety",
+  "state": "psych_safety_state",
+  "claimed_meta_r": 0.15,
+  "verified_meta_r": null,
+  "source_doi": "https://doi.org/10.1037/aca0000177",
+  "source_title": "Mere listening effect on creativity and the mediating role of psychological safety.",
+  "source_year": 2018,
+  "source_openalex_id": "https://openalex.org/W2803756264",
+  "citation_claimed": "Spreitzer (1995) AMJ: job enrichment \u2192 empowerment \u2192 safety",
+  "citation_matched": false,
+  "evidence_quote": "While research suggests that individuals may increase their own creativity by listening to other's ideas, the effects of being listened to by others have remained understudied to date. We hypothesized that listening behavior of superiors may positively impact employees to explore new ideas flexibly, leading to higher l",
+  "sample_n": 744,
+  "n_studies_k": 5,
+  "confidence_claimed": "low",
+  "confidence_extraction": "low",
+  "abs_deviation": null,
+  "status": "oa_effect_not_found",
+  "extracted_utc": "2026-06-19T17:44:06.489053+00:00",
+  "note": "Meta-analytic source located but no focal correlation present in the abstract; requires full-text human extraction.",
+  "oa": true,
+  "oa_pdf_url": "https://kclpure.kcl.ac.uk/ws/files/94239382/Castro_Anseel_Kluger_et_al_Mere_listening.pdf"
+}

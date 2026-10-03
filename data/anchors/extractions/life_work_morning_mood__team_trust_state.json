@@ -1,0 +1,22 @@
+{
+  "indicator": "life_work_morning_mood",
+  "state": "team_trust_state",
+  "claimed_meta_r": 0.18,
+  "verified_meta_r": null,
+  "source_doi": "https://doi.org/10.1109/hicss.2016.445",
+  "source_title": "From E-Shopping System Quality to the Consumer's Intention to Return: A Meta-Analytic Study of the Mediation of Attitude, Usefulness, Enjoyment, and Trust",
+  "source_year": 2016,
+  "source_openalex_id": "https://openalex.org/W2294360839",
+  "citation_claimed": "Mislin et al. (2015) OBH meta: affect \u2192 trust decisions",
+  "citation_matched": false,
+  "evidence_quote": "This research aims at clarifying the respective role of e-shopping system quality and attitude, usefulness, enjoyment, and trust to explain the consumer's intention to return to an online merchant. A meta-analytical regression based on 83 published studies is used to integrate, in one single model, concepts from two st",
+  "sample_n": null,
+  "n_studies_k": null,
+  "confidence_claimed": "low",
+  "confidence_extraction": "low",
+  "abs_deviation": null,
+  "status": "source_found_effect_in_pdf",
+  "extracted_utc": "2026-06-19T17:44:06.500446+00:00",
+  "note": "Meta-analytic source located but no focal correlation present in the abstract; requires full-text human extraction.",
+  "oa": false
+}

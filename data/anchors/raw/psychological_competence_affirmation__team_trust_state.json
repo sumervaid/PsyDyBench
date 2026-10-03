@@ -1,0 +1,18 @@
+{
+  "indicator": "psychological_competence_affirmation",
+  "state": "team_trust_state",
+  "claimed_meta_r": "0.35",
+  "citation": "Colquitt, Scott & LePine (2007) JAP meta (ability trust)",
+  "construct_match": "Competence \u2192 Trust (ability-based)",
+  "confidence": "high",
+  "queries": [
+    "Competence Trust ability-based trust in team meta-analysis",
+    "Colquitt 2007 trust in team meta-analysis",
+    "title.search:Competence trust meta-analytic year:2007",
+    "title.search:trust meta-analytic year:2007",
+    "title.search:Competence trust year:2007"
+  ],
+  "retrieved_utc": "2026-06-19T17:44:49.443205+00:00",
+  "n_candidates": 0,
+  "candidates": []
+}

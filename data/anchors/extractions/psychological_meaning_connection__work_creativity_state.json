@@ -1,0 +1,23 @@
+{
+  "indicator": "psychological_meaning_connection",
+  "state": "work_creativity_state",
+  "claimed_meta_r": 0.36,
+  "verified_meta_r": null,
+  "source_doi": "https://doi.org/10.1177/20413866211006173",
+  "source_title": "Beyond intrinsic and extrinsic motivation: A meta-analysis on self-determination theory\u2019s multidimensional conceptualization of work motivation",
+  "source_year": 2021,
+  "source_openalex_id": "https://openalex.org/W3148898878",
+  "citation_claimed": "Hammond et al. (2011) JAP meta",
+  "citation_matched": false,
+  "evidence_quote": "This meta-analysis aims to shed light on the added value of the complex multidimensional view on motivation of Self-determination theory (SDT). We assess the unique and incremental validity of each of SDT\u2019s types of motivation in predicting organizational behavior, and examine SDT\u2019s core proposition that increasing sel",
+  "sample_n": null,
+  "n_studies_k": 124,
+  "confidence_claimed": "high",
+  "confidence_extraction": "low",
+  "abs_deviation": null,
+  "status": "oa_effect_not_found",
+  "extracted_utc": "2026-06-19T17:44:06.532396+00:00",
+  "note": "Meta-analytic source located but no focal correlation present in the abstract; requires full-text human extraction.",
+  "oa": true,
+  "oa_pdf_url": "https://pure.eur.nl/ws/files/58014792/33_OPR_2021_Meta_analysis_work_motivation.pdf"
+}

@@ -1,0 +1,20 @@
+Data license: Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+The data files in this repository — the synthetic persona seeds (data/seeds/),
+the meta-analytic anchor audit trail (data/anchors/), the generated narrative
+corpora and model ratings (results/generation/), and all derived result tables
+(results/) — are released under CC BY 4.0. You may share and adapt them for any
+purpose, including commercially, provided you give appropriate credit.
+
+Full license text: https://creativecommons.org/licenses/by/4.0/legalcode
+
+Attribution: Vaid, S. S., & Whillans, A. V. (2026). Benchmarking Psychological
+Dynamics in Generative Agents. AI Measurement Science Workshop at COLM 2026.
+
+Code in this repository is licensed separately under the MIT License (see
+LICENSE at the repository root).
+
+Note on the anchor library: the meta-analytic effect sizes in
+scripts/validation/meta_analysis_validation.py and data/seeds/ are numeric
+values transcribed from the cited published meta-analyses, with citations.
+The source publications themselves are not redistributed.

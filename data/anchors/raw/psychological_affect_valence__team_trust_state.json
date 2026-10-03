@@ -1,0 +1,34 @@
+{
+  "indicator": "psychological_affect_valence",
+  "state": "team_trust_state",
+  "claimed_meta_r": "0.3",
+  "citation": "Colquitt, Scott & LePine (2007) JAP meta",
+  "construct_match": "Positive affect \u2192 Trust propensity",
+  "confidence": "low",
+  "queries": [
+    "Positive affect Trust propensity trust in team meta-analysis",
+    "Colquitt 2007 trust in team meta-analysis",
+    "title.search:Positive affect trust meta-analytic year:2007",
+    "title.search:affect trust meta-analytic year:2007",
+    "title.search:Positive affect trust year:2007",
+    "title.search:trust meta-analytic year:2007"
+  ],
+  "retrieved_utc": "2026-06-19T17:44:52.776576+00:00",
+  "n_candidates": 1,
+  "candidates": [
+    {
+      "openalex_id": "https://openalex.org/W2143573737",
+      "title": "Trust, trustworthiness, and trust propensity: A meta-analytic test of their unique relationships with risk taking and job performance.",
+      "abstract": "The trust literature distinguishes trustworthiness (the ability, benevolence, and integrity of a trustee) and trust propensity (a dispositional willingness to rely on others) from trust (the intention to accept vulnerability to a trustee based on positive expectations of his or her actions). Although this distinction has clarified some confusion in the literature, it remains unclear (a) which trust antecedents have the strongest relationships with trust and (b) whether trust fully mediates the effects of trustworthiness and trust propensity on behavioral outcomes. Our meta-analysis of 132 independent samples summarized the relationships between the trust variables and both risk taking and job performance (task performance, citizenship behavior, counterproductive behavior). Meta-analytic structural equation modeling supported a partial mediation model wherein trustworthiness and trust propensity explained incremental variance in the behavioral outcomes when trust was controlled. Further analyses revealed that the trustworthiness dimensions also predicted affective commitment, which had unique relationships with the outcomes when controlling for trust. These results generalized across different types of trust measures (i.e., positive expectations measures, willingness-to-be-vulnerable measures, and direct measures) and different trust referents (i.e., leaders, coworkers).",
+      "doi": "https://doi.org/10.1037/0021-9010.92.4.909",
+      "year": 2007,
+      "type": "review",
+      "oa_status": "closed",
+      "cited_by_count": 2555,
+      "authorships_first": "Jason A. Colquitt",
+      "source": "Journal of Applied Psychology",
+      "relevance_score": 1030.2413,
+      "matched_query": "title.search:trust meta-analytic (year=2007)"
+    }
+  ]
+}

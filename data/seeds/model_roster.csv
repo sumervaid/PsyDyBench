@@ -1,0 +1,15 @@
+cell,model_id,provider,family,size_class,type,capability_tier,rationale
+1,meta-llama/llama-3.1-8b-instruct,openrouter,Meta,small,dense,low,size-pair-low (vs cell 2); cheapest; likely-pass baseline
+2,meta-llama/llama-3.3-70b-instruct,openrouter,Meta,large,dense,mid,size-pair-high (vs cell 1) — isolates size within Meta
+3,qwen/qwen-2.5-7b-instruct,openrouter,Alibaba,small,dense,low,size-pair-low (vs cell 4)
+4,qwen/qwen-2.5-72b-instruct,openrouter,Alibaba,large,dense,mid,size-pair-high (vs cell 3) — isolates size within Alibaba
+5,google/gemma-3-27b-it,openrouter,Google,mid,dense,mid,family breadth (Google)
+6,mistralai/mistral-small-3.2-24b-instruct,openrouter,Mistral,mid,dense,mid,family breadth (Mistral)
+7,meta-llama/llama-4-maverick,openrouter,Meta,frontier,moe,high,dense-vs-MoE axis (MoE frontier)
+8,deepseek/deepseek-v3.2,openrouter,DeepSeek,frontier,moe,high,frontier open non-reasoning (vs cell 9)
+9,deepseek/deepseek-r1-0528,openrouter,DeepSeek,frontier,reasoning,high,reasoning-vs-non within DeepSeek (vs cell 8) — novel axis
+10,openai/gpt-oss-120b,openrouter,OpenAI-open,mid,moe,mid,open-vs-closed within one lab (vs cells 11-12)
+11,gpt-4.1,openai,OpenAI,mid,dense,mid,closed capability ladder (mid)
+12,gpt-5.5,openai,OpenAI,frontier,dense,frontier,closed frontier (current; resolves "gpt-5.x"); likely most-frozen
+13,google/gemma-3-4b-it,openrouter,Google,small,dense,low,SIZE-LADDER (Gemma-3 gen): 4B rung (vs cells 5,14) — sharpens non-monotonic-capability finding, family held constant
+14,google/gemma-3-12b-it,openrouter,Google,mid,dense,mid,SIZE-LADDER (Gemma-3 gen): 12B rung (vs cells 5,13)

@@ -1,0 +1,48 @@
+{
+  "rate": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "You are the employee described. Report your honest end-of-day psychological states given who you\nare and what happened today. Let a genuinely strong day move your ratings toward the ends of each scale.",
+      "fields": [
+        {
+          "prefix": "Persona:",
+          "description": "who this employee is (stable portrait)"
+        },
+        {
+          "prefix": "Narrative:",
+          "description": "what happened to this employee today"
+        },
+        {
+          "prefix": "Scale Guidance:",
+          "description": "state names and numeric scale bounds"
+        },
+        {
+          "prefix": "Work Engagement:",
+          "description": "1-7"
+        },
+        {
+          "prefix": "Psych Safety:",
+          "description": "1-4"
+        },
+        {
+          "prefix": "Work Creativity:",
+          "description": "1-6"
+        },
+        {
+          "prefix": "Team Trust:",
+          "description": "1-5"
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.9",
+      "dspy": "2.6.27",
+      "cloudpickle": "3.1"
+    }
+  }
+}

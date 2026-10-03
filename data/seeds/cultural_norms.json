@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "description": "Cross-cultural seeding + anchor targets for the cultural-validity tier (Framework D4).",
+    "hofstede_source": "Hofstede Insights country scores (PDI=power distance, IDV=individualism); public, well-established.",
+    "big_five_offset_source": "Schmitt, Allik, McCrae & Benet-Martinez (2007) J Cross-Cult Psychol 38:173-212 (nation-level Big Five). Offsets are z-shifts vs the global mean; APPROXIMATE — verify exact values before publication.",
+    "anchor_status": "cross-cultural effect DIRECTIONS are literature-grounded (cited); MAGNITUDES are placeholders pending Stream A verification."
+  },
+  "cultures": {
+    "USA":     {"pdi": 40, "idv": 91, "big5_offset": {"extraversion": 0.20, "agreeableness": 0.00, "conscientiousness": 0.05, "emotional_stability": 0.00, "openness": 0.10}},
+    "Germany": {"pdi": 35, "idv": 67, "big5_offset": {"extraversion": -0.10, "agreeableness": -0.15, "conscientiousness": 0.20, "emotional_stability": 0.05, "openness": 0.05}},
+    "Japan":   {"pdi": 54, "idv": 46, "big5_offset": {"extraversion": -0.30, "agreeableness": 0.00, "conscientiousness": 0.10, "emotional_stability": -0.20, "openness": -0.10}},
+    "Brazil":  {"pdi": 69, "idv": 38, "big5_offset": {"extraversion": 0.15, "agreeableness": 0.10, "conscientiousness": -0.05, "emotional_stability": -0.10, "openness": 0.05}},
+    "India":   {"pdi": 77, "idv": 48, "big5_offset": {"extraversion": -0.05, "agreeableness": 0.05, "conscientiousness": 0.10, "emotional_stability": 0.00, "openness": -0.05}},
+    "China":   {"pdi": 80, "idv": 20, "big5_offset": {"extraversion": -0.20, "agreeableness": 0.05, "conscientiousness": 0.15, "emotional_stability": 0.00, "openness": -0.15}}
+  },
+  "cross_cultural_anchors": [
+    {"dimension": "pdi",  "state": "psych_safety",   "expected_sign": -1, "expected_beta": -0.30, "citation": "Frazier et al. (2017) Pers Psych meta (power distance moderates psych safety); Hofstede", "confidence": "medium"},
+    {"dimension": "pdi",  "state": "work_creativity","expected_sign": -1, "expected_beta": -0.15, "citation": "Anderson, Potocnik & Zhou (2014) J Mgmt review (hierarchy suppresses voice/creativity)", "confidence": "low"},
+    {"dimension": "idv",  "state": "team_trust",     "expected_sign": -1, "expected_beta": -0.15, "citation": "Realo et al. / collectivism -> stronger in-group trust (individualism lowers diffuse in-group trust)", "confidence": "low"},
+    {"dimension": "idv",  "state": "work_engagement","expected_sign":  1, "expected_beta":  0.10, "citation": "Individualistic cultures report higher self-rated engagement (UWES cross-cultural)", "confidence": "low"}
+  ]
+}

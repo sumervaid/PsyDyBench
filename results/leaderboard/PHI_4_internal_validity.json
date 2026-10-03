@@ -1,0 +1,304 @@
+{
+  "levels_passed": 1,
+  "total_levels": 6,
+  "overall_score": 0.453,
+  "n_obs": 1800,
+  "n_employees": 300,
+  "levels": [
+    {
+      "level": 1,
+      "name": "Distributions",
+      "passed": false,
+      "score": 0.5,
+      "metrics": {
+        "work_engagement": {
+          "synth_mean": 3.834,
+          "target_mean": 4.8,
+          "mean_diff": 0.966,
+          "mean_ok": false,
+          "synth_sd": 1.124,
+          "target_sd": 1.1,
+          "sd_ratio": 1.022,
+          "sd_ok": true
+        },
+        "psych_safety": {
+          "synth_mean": 2.74,
+          "target_mean": 2.9,
+          "mean_diff": 0.16,
+          "mean_ok": true,
+          "synth_sd": 0.644,
+          "target_sd": 0.55,
+          "sd_ratio": 1.171,
+          "sd_ok": true
+        },
+        "work_creativity": {
+          "synth_mean": 3.386,
+          "target_mean": 3.6,
+          "mean_diff": 0.214,
+          "mean_ok": true,
+          "synth_sd": 1.002,
+          "target_sd": 0.85,
+          "sd_ratio": 1.179,
+          "sd_ok": true
+        },
+        "team_trust": {
+          "synth_mean": 3.171,
+          "target_mean": 3.7,
+          "mean_diff": 0.529,
+          "mean_ok": false,
+          "synth_sd": 0.729,
+          "target_sd": 0.7,
+          "sd_ratio": 1.042,
+          "sd_ok": true
+        }
+      },
+      "recommendations": []
+    },
+    {
+      "level": 2,
+      "name": "ICC (Variance Ratios)",
+      "passed": false,
+      "score": 0.6702819909352591,
+      "metrics": {
+        "work_engagement": {
+          "synth_icc": 0.098,
+          "target_icc": 0.55,
+          "icc_diff": 0.452,
+          "icc_ok": false,
+          "synth_within_sd": 1.158,
+          "target_within_sd": 0.738,
+          "synth_between_sd": 0.382,
+          "state_score": 0.7
+        },
+        "psych_safety": {
+          "synth_icc": 0.119,
+          "target_icc": 0.5,
+          "icc_diff": 0.381,
+          "icc_ok": false,
+          "synth_within_sd": 0.654,
+          "target_within_sd": 0.389,
+          "synth_between_sd": 0.241,
+          "state_score": 0.653
+        },
+        "work_creativity": {
+          "synth_icc": 0.097,
+          "target_icc": 0.5,
+          "icc_diff": 0.403,
+          "icc_ok": false,
+          "synth_within_sd": 1.033,
+          "target_within_sd": 0.601,
+          "synth_between_sd": 0.339,
+          "state_score": 0.639
+        },
+        "team_trust": {
+          "synth_icc": 0.104,
+          "target_icc": 0.55,
+          "icc_diff": 0.446,
+          "icc_ok": false,
+          "synth_within_sd": 0.748,
+          "target_within_sd": 0.47,
+          "synth_between_sd": 0.255,
+          "state_score": 0.69
+        }
+      },
+      "recommendations": [
+        "work_engagement: too state-like (over-varying) (within-SD 1.16 vs target 0.74).",
+        "psych_safety: too state-like (over-varying) (within-SD 0.65 vs target 0.39).",
+        "work_creativity: too state-like (over-varying) (within-SD 1.03 vs target 0.60).",
+        "team_trust: too state-like (over-varying) (within-SD 0.75 vs target 0.47)."
+      ]
+    },
+    {
+      "level": 3,
+      "name": "State Correlations",
+      "passed": false,
+      "score": 0.25,
+      "metrics": {
+        "between_person": {
+          "work_engagement_x_psych_safety": {
+            "synth_r": 0.62,
+            "target_r": 0.4,
+            "diff": 0.22,
+            "ok": false
+          },
+          "work_engagement_x_work_creativity": {
+            "synth_r": 0.697,
+            "target_r": 0.4,
+            "diff": 0.297,
+            "ok": false
+          },
+          "work_engagement_x_team_trust": {
+            "synth_r": 0.594,
+            "target_r": 0.4,
+            "diff": 0.194,
+            "ok": true
+          },
+          "psych_safety_x_work_creativity": {
+            "synth_r": 0.545,
+            "target_r": 0.4,
+            "diff": 0.145,
+            "ok": true
+          },
+          "psych_safety_x_team_trust": {
+            "synth_r": 0.555,
+            "target_r": 0.4,
+            "diff": 0.155,
+            "ok": true
+          },
+          "work_creativity_x_team_trust": {
+            "synth_r": 0.645,
+            "target_r": 0.4,
+            "diff": 0.245,
+            "ok": false
+          }
+        },
+        "within_person": {
+          "work_engagement_x_psych_safety": {
+            "synth_r": 0.747,
+            "target_r": 0.25,
+            "diff": 0.497,
+            "ok": false
+          },
+          "work_engagement_x_work_creativity": {
+            "synth_r": 0.819,
+            "target_r": 0.25,
+            "diff": 0.569,
+            "ok": false
+          },
+          "work_engagement_x_team_trust": {
+            "synth_r": 0.745,
+            "target_r": 0.25,
+            "diff": 0.495,
+            "ok": false
+          },
+          "psych_safety_x_work_creativity": {
+            "synth_r": 0.753,
+            "target_r": 0.25,
+            "diff": 0.503,
+            "ok": false
+          },
+          "psych_safety_x_team_trust": {
+            "synth_r": 0.72,
+            "target_r": 0.25,
+            "diff": 0.47,
+            "ok": false
+          },
+          "work_creativity_x_team_trust": {
+            "synth_r": 0.802,
+            "target_r": 0.25,
+            "diff": 0.552,
+            "ok": false
+          }
+        }
+      },
+      "recommendations": [
+        "Correlation mismatch on work_engagement_x_psych_safety; add state-relationship cues to identities.",
+        "Correlation mismatch on work_engagement_x_work_creativity; add state-relationship cues to identities.",
+        "Correlation mismatch on work_engagement_x_team_trust; add state-relationship cues to identities.",
+        "Correlation mismatch on psych_safety_x_work_creativity; add state-relationship cues to identities.",
+        "Correlation mismatch on psych_safety_x_team_trust; add state-relationship cues to identities.",
+        "Correlation mismatch on work_creativity_x_team_trust; add state-relationship cues to identities."
+      ]
+    },
+    {
+      "level": 4,
+      "name": "Temporal Patterns",
+      "passed": false,
+      "score": 0.0,
+      "metrics": {
+        "work_engagement": {
+          "mean_ar1": -0.237,
+          "n_employees": 299,
+          "ok": false
+        },
+        "psych_safety": {
+          "mean_ar1": -0.214,
+          "n_employees": 291,
+          "ok": false
+        },
+        "work_creativity": {
+          "mean_ar1": -0.227,
+          "n_employees": 300,
+          "ok": false
+        },
+        "team_trust": {
+          "mean_ar1": -0.223,
+          "n_employees": 292,
+          "ok": false
+        }
+      },
+      "recommendations": []
+    },
+    {
+      "level": 6,
+      "name": "Factor Structure",
+      "passed": false,
+      "score": 0.3,
+      "metrics": {
+        "avg_inter_state_correlation": 0.745
+      },
+      "recommendations": [
+        "States too highly correlated; reduce lock-step movement."
+      ]
+    },
+    {
+      "level": 7,
+      "name": "Patterns & Extremes",
+      "passed": true,
+      "score": 1.0,
+      "metrics": {
+        "work_engagement": {
+          "pct_at_min": 0.2,
+          "pct_at_max": 0.4,
+          "range_used": 1.0,
+          "min_observed": 1.0,
+          "max_observed": 7.0,
+          "extremes_ok": true,
+          "range_ok": true
+        },
+        "psych_safety": {
+          "pct_at_min": 1.4,
+          "pct_at_max": 8.3,
+          "range_used": 1.0,
+          "min_observed": 1.0,
+          "max_observed": 4.0,
+          "extremes_ok": true,
+          "range_ok": true
+        },
+        "work_creativity": {
+          "pct_at_min": 0.2,
+          "pct_at_max": 2.0,
+          "range_used": 1.0,
+          "min_observed": 1.0,
+          "max_observed": 6.0,
+          "extremes_ok": true,
+          "range_ok": true
+        },
+        "team_trust": {
+          "pct_at_min": 0.3,
+          "pct_at_max": 2.8,
+          "range_used": 1.0,
+          "min_observed": 1.0,
+          "max_observed": 5.0,
+          "extremes_ok": true,
+          "range_ok": true
+        }
+      },
+      "recommendations": []
+    }
+  ],
+  "summary": "NEEDS WORK: only 1/6 levels passed.",
+  "recommendations": [
+    "work_engagement: too state-like (over-varying) (within-SD 1.16 vs target 0.74).",
+    "psych_safety: too state-like (over-varying) (within-SD 0.65 vs target 0.39).",
+    "work_creativity: too state-like (over-varying) (within-SD 1.03 vs target 0.60).",
+    "team_trust: too state-like (over-varying) (within-SD 0.75 vs target 0.47).",
+    "Correlation mismatch on work_engagement_x_psych_safety; add state-relationship cues to identities.",
+    "Correlation mismatch on work_engagement_x_work_creativity; add state-relationship cues to identities.",
+    "Correlation mismatch on work_engagement_x_team_trust; add state-relationship cues to identities.",
+    "Correlation mismatch on psych_safety_x_work_creativity; add state-relationship cues to identities.",
+    "Correlation mismatch on psych_safety_x_team_trust; add state-relationship cues to identities.",
+    "Correlation mismatch on work_creativity_x_team_trust; add state-relationship cues to identities."
+  ],
+  "neutral_targets": false
+}

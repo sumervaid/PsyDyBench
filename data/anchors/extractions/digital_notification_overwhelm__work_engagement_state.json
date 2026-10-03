@@ -1,0 +1,22 @@
+{
+  "indicator": "digital_notification_overwhelm",
+  "state": "work_engagement_state",
+  "claimed_meta_r": -0.22,
+  "verified_meta_r": null,
+  "source_doi": "https://doi.org/10.1177/10598405221096802",
+  "source_title": "The Relationship of School Connectedness to Adolescents\u2019 Engagement in Co-Occurring Health Risks: A Meta-Analytic Review",
+  "source_year": 2022,
+  "source_openalex_id": "https://openalex.org/W4225096581",
+  "citation_claimed": "Sarabadani et al. (2023) EJIS technostress meta",
+  "citation_matched": false,
+  "evidence_quote": "School connectedness is an important factor in the lives of youth and are a leverage point for optimizing youth\u2019s social, emotional, and physical health. This study presents a meta-analysis examining the relationship between school connectedness and four health domains that are prevalent in adolescence, have implicatio",
+  "sample_n": null,
+  "n_studies_k": null,
+  "confidence_claimed": "medium",
+  "confidence_extraction": "low",
+  "abs_deviation": null,
+  "status": "source_found_effect_in_pdf",
+  "extracted_utc": "2026-06-19T17:44:06.493179+00:00",
+  "note": "Meta-analytic source located but no focal correlation present in the abstract; requires full-text human extraction.",
+  "oa": false
+}

@@ -1,0 +1,23 @@
+{
+  "indicator": "behavioral_meeting_hours",
+  "state": "work_engagement_state",
+  "claimed_meta_r": -0.18,
+  "verified_meta_r": null,
+  "source_doi": "https://doi.org/10.1177/0149206311415252",
+  "source_title": "Job Burnout and Employee Engagement",
+  "source_year": 2011,
+  "source_openalex_id": "https://openalex.org/W2118093579",
+  "citation_claimed": "Rogelberg et al. (2006) JAP",
+  "citation_matched": false,
+  "evidence_quote": "Drawing on 50 unique samples (from 37 studies), the authors used meta-analytical techniques to assess the extent to which job burnout and employee engagement are independent and useful constructs. The authors found that (a) dimension-level correlations between burnout and engagement are high, (b) burnout and engagement",
+  "sample_n": null,
+  "n_studies_k": 37,
+  "confidence_claimed": "medium",
+  "confidence_extraction": "low",
+  "abs_deviation": null,
+  "status": "oa_effect_not_found",
+  "extracted_utc": "2026-06-19T17:44:06.485616+00:00",
+  "note": "Meta-analytic source located but no focal correlation present in the abstract; requires full-text human extraction.",
+  "oa": true,
+  "oa_pdf_url": "https://research.rug.nl/en/publications/06d1b321-2369-4ab6-ba36-13ade280c98a"
+}

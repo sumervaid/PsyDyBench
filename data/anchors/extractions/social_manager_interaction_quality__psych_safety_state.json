@@ -1,0 +1,23 @@
+{
+  "indicator": "social_manager_interaction_quality",
+  "state": "psych_safety_state",
+  "claimed_meta_r": 0.42,
+  "verified_meta_r": null,
+  "source_doi": "https://doi.org/10.5465/amj.2018.1428",
+  "source_title": "Distinguishing Voice and Silence at Work: Unique Relationships with Perceived Impact, Psychological Safety, and Burnout",
+  "source_year": 2020,
+  "source_openalex_id": "https://openalex.org/W3005288118",
+  "citation_claimed": "Frazier et al. (2017) Pers Psych",
+  "citation_matched": false,
+  "evidence_quote": "Scholars continue to debate whether voice and silence are opposites or distinct constructs. This ambiguity has prevented meaningful theoretical advancements about employees\u2019 voice and silence at work. We draw on the behavioral activation and behavioral inhibition systems perspective to provide a conceptual framework fo",
+  "sample_n": null,
+  "n_studies_k": null,
+  "confidence_claimed": "high",
+  "confidence_extraction": "low",
+  "abs_deviation": null,
+  "status": "oa_effect_not_found",
+  "extracted_utc": "2026-06-19T17:44:06.548788+00:00",
+  "note": "Meta-analytic source located but no focal correlation present in the abstract; requires full-text human extraction.",
+  "oa": true,
+  "oa_pdf_url": "https://pure.eur.nl/ws/files/212135059/EBSCO-FullText-11_04_2025.pdf"
+}

@@ -1,0 +1,18 @@
+{
+  "indicator": "psychological_flow_hours",
+  "state": "team_trust_state",
+  "claimed_meta_r": "0.15",
+  "citation": "Salanova et al. (2006) JOHP: flow \u2192 collective efficacy \u2192 trust",
+  "construct_match": "Flow \u2192 Trust (shared positive experience)",
+  "confidence": "low",
+  "queries": [
+    "Flow Trust shared positive experience trust in team meta-analysis",
+    "Salanova 2006 trust in team meta-analysis",
+    "title.search:Flow trust meta-analytic year:2006",
+    "title.search:trust meta-analytic year:2006",
+    "title.search:Flow trust year:2006"
+  ],
+  "retrieved_utc": "2026-06-19T17:45:48.083809+00:00",
+  "n_candidates": 0,
+  "candidates": []
+}

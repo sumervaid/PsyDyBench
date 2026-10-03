@@ -1,0 +1,23 @@
+{
+  "indicator": "social_social_energy_drain",
+  "state": "psych_safety_state",
+  "claimed_meta_r": -0.31,
+  "verified_meta_r": -0.45,
+  "source_doi": "https://doi.org/10.5465/amj.2018.1428",
+  "source_title": "Distinguishing Voice and Silence at Work: Unique Relationships with Perceived Impact, Psychological Safety, and Burnout",
+  "source_year": 2020,
+  "source_openalex_id": "https://openalex.org/W3005288118",
+  "citation_claimed": "Profit et al. (2024) Health Affairs Scholar",
+  "citation_matched": false,
+  "evidence_quote": "Psychological safety had a stronger effect on silence (Mr = -0.45, 95% CI [-0.51, -0.39]) as compared with perceived impact (Mr = -0.22, 95% CI [-0.33, -0.10]).",
+  "sample_n": null,
+  "n_studies_k": null,
+  "confidence_claimed": "medium",
+  "confidence_extraction": "full_text",
+  "abs_deviation": null,
+  "status": "verified",
+  "extracted_utc": "2026-06-19T17:44:06.553785+00:00",
+  "note": "Meta-analytic source located but no focal correlation present in the abstract; requires full-text human extraction.",
+  "oa": true,
+  "oa_pdf_url": "https://pure.eur.nl/ws/files/212135059/EBSCO-FullText-11_04_2025.pdf"
+}

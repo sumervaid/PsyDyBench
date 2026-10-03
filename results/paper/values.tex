@@ -1,0 +1,54 @@
+% values.tex — single source for every result number. FINAL 36-model run (clean N=34 after excluding
+% two degenerate corpora). Reference these macros in paper.tex; never hardcode a number in prose.
+\newcommand{\nModels}{36}
+\newcommand{\nAnalyzed}{34}
+\newcommand{\nPersonas}{300}
+\newcommand{\nDays}{6}
+\newcommand{\nStates}{4}
+\newcommand{\nDevelopers}{nine}          % distinct model developers in evaluated roster (Meta, Google, Alibaba, Mistral, Microsoft, DeepSeek, IBM, OpenAI, Anthropic)
+\newcommand{\paramLo}{1B}                % smallest evaluated model
+\newcommand{\paramHi}{671B}             % largest evaluated model (~3 orders of magnitude span)
+\newcommand{\nomoDir}{84.3\%}            % trait->state nomological direction agreement (between-person)
+\newcommand{\nomoRangeLo}{75\%}
+\newcommand{\nomoRangeHi}{100\%}
+\newcommand{\betweenConv}{55.5\%}        % indicator->state convergence, between-person (~chance)
+\newcommand{\withinConv}{72.6\%}         % indicator->state direction agreement, within-person
+\newcommand{\bestVarFid}{0.043}          % smallest within-person variance error (lower=closer to norm)
+\newcommand{\bestVarFidModel}{Gemma-2-27B}
+\newcommand{\gptFiveVarFid}{0.061}       % frontier model (GPT-5.5) within-person variance error
+\newcommand{\gemmaFourVarFid}{0.427}     % Gemma-3-4B within-person variance error (largest among clean models)
+\newcommand{\gemmaFourConv}{74.6\%}      % Gemma-3-4B POOLED indicator->state direction agreement (within-person is 71.2%); verified anchoring_leaderboard.csv
+\newcommand{\nLevels}{6}                 % internal-validity levels (L1,L2,L3,L4,L6,L7)
+\newcommand{\lTwoPass}{26}               % models passing L2 between/within variance-partition equivalence (of 34)
+\newcommand{\lSevenPass}{34}             % models passing L7 range/ceiling
+\newcommand{\lFourPass}{7}               % models passing L4 temporal AR(1)
+\newcommand{\maxLevelsPassed}{3}         % best levels_passed across roster (of 6)
+\newcommand{\varErrMedian}{0.208}        % median within-person variance error across clean roster
+\newcommand{\nAnchors}{118}
+\newcommand{\anchorsVerified}{10}
+\newcommand{\cultMinInvar}{0.014}
+\newcommand{\cultMaxInvar}{0.038}
+\newcommand{\cultConv}{75\%}
+% --- Magnitude probe (gpt-4.1 re-rating experiment, 2026-06-22; results/magnitude/) ---
+\newcommand{\relYMean}{0.97}             % single-rating reliability (re-rate 10x), disattenuation negligible
+\newcommand{\withinRbaseline}{0.023}     % pooled within-person |r| at full N (1,800 person-days)
+\newcommand{\nObsFull}{1{,}800}          % person-days in the full magnitude probe
+\newcommand{\dirFull}{71\%}              % within-person direction agreement, baseline prompt, full N
+\newcommand{\rhoFull}{0.38}              % rank corr of within_r vs meta effects, baseline, full N
+\newcommand{\dirDeanchor}{77\%}          % direction agreement after de-anchoring rating prompt
+\newcommand{\rhoDeanchor}{0.46}          % rank corr after de-anchoring
+\newcommand{\withinRtempEight}{0.059}    % within|r| at rating temperature 0.8 (subset)
+\newcommand{\withinRtempZero}{0.060}     % within|r| at rating temperature 0.0 (subset)
+% capability axis (A3): gpt-4.1 = dirFull/rhoFull
+\newcommand{\miniRho}{0.45}              % gpt-4.1-mini rank corr vs meta
+\newcommand{\nanoRho}{0.48}              % gpt-4.1-nano rank corr vs meta
+\newcommand{\nanoDir}{75\%}              % gpt-4.1-nano direction agreement
+% construct-variance / ICC headroom (Track B): low-ICC states, 8 pairs each
+\newcommand{\exhaustICC}{0.34}\newcommand{\exhaustWithinR}{0.058}\newcommand{\exhaustDir}{100\%}
+\newcommand{\fatigueICC}{0.40}\newcommand{\fatigueWithinR}{0.075}\newcommand{\fatigueDir}{100\%}\newcommand{\fatigueRho}{0.95}
+\newcommand{\flowICC}{0.48}\newcommand{\flowWithinR}{0.069}
+\newcommand{\nIccPairs}{8}
+% all-silico MIPROv2 achievability tune (held-out composite, 30 train / 30 test, auto=medium)
+\newcommand{\miniBaseComp}{0.693}\newcommand{\miniTunedComp}{0.702}
+\newcommand{\nanoBaseComp}{0.660}\newcommand{\nanoTunedComp}{0.673}
+\newcommand{\nTuneTrain}{30}\newcommand{\nTuneTest}{30}\newcommand{\nVerifiedL}{5}

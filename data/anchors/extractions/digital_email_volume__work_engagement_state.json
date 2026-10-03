@@ -1,0 +1,23 @@
+{
+  "indicator": "digital_email_volume",
+  "state": "work_engagement_state",
+  "claimed_meta_r": -0.18,
+  "verified_meta_r": null,
+  "source_doi": "https://doi.org/10.1007/s11747-020-00762-y",
+  "source_title": "Understanding anthropomorphism in service provision: a meta-analysis of physical robots, chatbots, and other AI",
+  "source_year": 2021,
+  "source_openalex_id": "https://openalex.org/W3119676664",
+  "citation_claimed": "Schmitt et al. (2021) info overload meta",
+  "citation_matched": false,
+  "evidence_quote": "Abstract An increasing number of firms introduce service robots, such as physical robots and virtual chatbots, to provide services to customers. While some firms use robots that resemble human beings by looking and acting humanlike to increase customers\u2019 use intention of this technology, others employ machinelike robot",
+  "sample_n": null,
+  "n_studies_k": 108,
+  "confidence_claimed": "low",
+  "confidence_extraction": "low",
+  "abs_deviation": null,
+  "status": "oa_effect_not_found",
+  "extracted_utc": "2026-06-19T17:44:06.491182+00:00",
+  "note": "Meta-analytic source located but no focal correlation present in the abstract; requires full-text human extraction.",
+  "oa": true,
+  "oa_pdf_url": "https://link.springer.com/content/pdf/10.1007/s11747-020-00762-y.pdf"
+}

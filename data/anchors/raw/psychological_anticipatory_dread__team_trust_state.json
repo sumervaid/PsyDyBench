@@ -1,0 +1,18 @@
+{
+  "indicator": "psychological_anticipatory_dread",
+  "state": "team_trust_state",
+  "claimed_meta_r": "-0.22",
+  "citation": "Dunn & Schweitzer (2005) AMJ: anxiety \u2192 reduced trust",
+  "construct_match": "Dread/anxiety \u2192 Trust (threat appraisal)",
+  "confidence": "medium",
+  "queries": [
+    "Dread anxiety Trust threat appraisal trust in team meta-analysis",
+    "Dunn 2005 trust in team meta-analysis",
+    "title.search:Dread/anxiety trust meta-analytic year:2005",
+    "title.search:trust meta-analytic year:2005",
+    "title.search:Dread/anxiety trust year:2005"
+  ],
+  "retrieved_utc": "2026-06-19T17:45:26.678757+00:00",
+  "n_candidates": 0,
+  "candidates": []
+}

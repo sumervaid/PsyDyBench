@@ -1,0 +1,19 @@
+{
+  "indicator": "social_manager_interaction_minutes",
+  "state": "team_trust_state",
+  "claimed_meta_r": "0.3",
+  "citation": "Dirks & Ferrin (2002) JAP: leader interaction frequency \u2192 trust",
+  "construct_match": "Manager time \u2192 Trust (relationship investment)",
+  "confidence": "medium",
+  "queries": [
+    "Manager time Trust relationship investment trust in team meta-analysis",
+    "Dirks 2002 trust in team meta-analysis",
+    "title.search:Manager time trust meta-analytic year:2002",
+    "title.search:time trust meta-analytic year:2002",
+    "title.search:Manager time trust year:2002",
+    "title.search:trust meta-analytic year:2002"
+  ],
+  "retrieved_utc": "2026-06-19T17:45:51.575865+00:00",
+  "n_candidates": 0,
+  "candidates": []
+}

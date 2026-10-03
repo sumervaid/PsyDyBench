@@ -1,0 +1,19 @@
+{
+  "indicator": "psychological_anticipatory_excitement",
+  "state": "team_trust_state",
+  "claimed_meta_r": "0.18",
+  "citation": "Dunn & Schweitzer (2005) AMJ: positive emotions \u2192 trust",
+  "construct_match": "Positive anticipation \u2192 Trust",
+  "confidence": "low",
+  "queries": [
+    "Positive anticipation Trust trust in team meta-analysis",
+    "Dunn 2005 trust in team meta-analysis",
+    "title.search:Positive anticipation trust meta-analytic year:2005",
+    "title.search:anticipation trust meta-analytic year:2005",
+    "title.search:Positive anticipation trust year:2005",
+    "title.search:trust meta-analytic year:2005"
+  ],
+  "retrieved_utc": "2026-06-19T17:45:42.014784+00:00",
+  "n_candidates": 0,
+  "candidates": []
+}

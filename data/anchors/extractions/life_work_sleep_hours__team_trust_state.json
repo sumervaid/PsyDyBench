@@ -1,0 +1,23 @@
+{
+  "indicator": "life_work_sleep_hours",
+  "state": "team_trust_state",
+  "claimed_meta_r": 0.1,
+  "verified_meta_r": null,
+  "source_doi": "https://doi.org/10.1139/apnm-2020-0467",
+  "source_title": "Canadian 24-Hour Movement Guidelines for Adults aged 18\u201364 years and Adults aged 65 years or older: an integration of physical activity, sedentary behaviour, and sleep",
+  "source_year": 2020,
+  "source_openalex_id": "https://openalex.org/W3092720775",
+  "citation_claimed": "Barnes et al. (2015) AMJ: sleep \u2192 interpersonal functioning",
+  "citation_matched": false,
+  "evidence_quote": "The Canadian Society for Exercise Physiology assembled a Consensus Panel representing national organizations, content experts, methodologists, stakeholders, and end-users and followed an established guideline development procedure to create the Canadian 24-Hour Movement Guidelines for Adults aged 18\u201364 years and Adults",
+  "sample_n": 877,
+  "n_studies_k": null,
+  "confidence_claimed": "low",
+  "confidence_extraction": "low",
+  "abs_deviation": null,
+  "status": "oa_effect_not_found",
+  "extracted_utc": "2026-06-19T17:44:06.505354+00:00",
+  "note": "Meta-analytic source located but no focal correlation present in the abstract; requires full-text human extraction.",
+  "oa": true,
+  "oa_pdf_url": "https://researchonline.gcu.ac.uk/ws/files/51176149/Ross_R._et_al_2020_Canadian_24_hour_movement_guidelines_for_adults_aged_18_64_years_and_adults_aged_65_years_or_older_an_integration_of_physical_activity_sedentary_behaviour_and_sleep.pdf"
+}

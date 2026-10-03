@@ -1,0 +1,19 @@
+{
+  "indicator": "life_work_personal_stress_level",
+  "state": "team_trust_state",
+  "claimed_meta_r": "-0.18",
+  "citation": "Colquitt, Scott & LePine (2007) JAP: stress \u2192 trust propensity",
+  "construct_match": "Personal stress \u2192 Trust (reduced propensity)",
+  "confidence": "low",
+  "queries": [
+    "Personal stress Trust reduced propensity trust in team meta-analysis",
+    "Colquitt 2007 trust in team meta-analysis",
+    "title.search:Personal stress trust meta-analytic year:2007",
+    "title.search:stress trust meta-analytic year:2007",
+    "title.search:Personal stress trust year:2007",
+    "title.search:trust meta-analytic year:2007"
+  ],
+  "retrieved_utc": "2026-06-19T17:45:36.058320+00:00",
+  "n_candidates": 0,
+  "candidates": []
+}

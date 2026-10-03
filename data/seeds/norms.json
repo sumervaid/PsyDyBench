@@ -1,0 +1,170 @@
+{
+  "_meta": {
+    "description": "Machine-readable published norms for all-silico persona seeding (Stream B). Companion to norms.md. No real ESM data. All numbers trace to public sources in norms.md.",
+    "trait_scale": [1, 7],
+    "rescale_note": "Big Five means/SDs rescaled from BFI 1-5 to 1-7 via x7 = 1 + (x5-1)*6/4."
+  },
+
+  "big_five": {
+    "order": ["extraversion", "agreeableness", "conscientiousness", "emotional_stability", "openness"],
+    "scale": [1, 7],
+    "means": {
+      "extraversion": 4.38,
+      "agreeableness": 4.96,
+      "conscientiousness": 4.68,
+      "emotional_stability": 4.48,
+      "openness": 5.11
+    },
+    "sds": {
+      "extraversion": 1.35,
+      "agreeableness": 1.08,
+      "conscientiousness": 1.10,
+      "emotional_stability": 1.26,
+      "openness": 0.99
+    },
+    "intercorrelations": {
+      "_order": ["extraversion", "agreeableness", "conscientiousness", "emotional_stability", "openness"],
+      "matrix": [
+        [1.00, 0.17, 0.19, 0.20, 0.23],
+        [0.17, 1.00, 0.27, 0.25, 0.11],
+        [0.19, 0.27, 1.00, 0.26, 0.20],
+        [0.20, 0.25, 0.26, 1.00, 0.15],
+        [0.23, 0.11, 0.20, 0.15, 1.00]
+      ],
+      "source": "van der Linden, te Nijenhuis & Bakker (2010), JRP 44(3):315-327"
+    },
+    "source": "Soto, John, Gosling & Potter (2011), JPSP 100(2):330-348 (rescaled to 1-7)"
+  },
+
+  "states": {
+    "work_engagement": {
+      "scale": [1, 7],
+      "grand_mean": 4.80,
+      "total_sd": 1.10,
+      "icc": 0.55,
+      "betas_std": {"extraversion": 0.18, "agreeableness": 0.06, "conscientiousness": 0.20, "emotional_stability": 0.30, "openness": 0.10},
+      "grand_mean_source": "Schaufeli, Bakker & Salanova (2006) UWES norms",
+      "icc_source": "Xanthopoulou et al. (2009) JOHP 14:121-141",
+      "beta_source": "Christian, Garza & Slaughter (2011) Personnel Psychology 64:89-136"
+    },
+    "psych_safety": {
+      "scale": [1, 4],
+      "grand_mean": 2.90,
+      "total_sd": 0.55,
+      "icc": 0.50,
+      "betas_std": {"extraversion": 0.14, "agreeableness": 0.18, "conscientiousness": 0.05, "emotional_stability": 0.22, "openness": 0.08},
+      "grand_mean_source": "Edmondson (1999) ASQ 44; Frazier et al. (2017) PP 70",
+      "icc_source": "Frazier et al. (2017) + daily-diary PS studies",
+      "beta_source": "Frazier, Fainshmidt, Klinger, Pezeshkan & Vracheva (2017) PP 70:113-165"
+    },
+    "work_creativity": {
+      "scale": [1, 6],
+      "grand_mean": 3.60,
+      "total_sd": 0.85,
+      "icc": 0.50,
+      "betas_std": {"extraversion": 0.16, "agreeableness": -0.04, "conscientiousness": 0.06, "emotional_stability": 0.10, "openness": 0.34},
+      "grand_mean_source": "Zhou & George (2001) AMJ 44:682-696",
+      "icc_source": "Amabile et al. (2005) ASQ 50:367-403",
+      "beta_source": "Feist (1998) PSPR 2:290-309; Hammond et al. (2011)"
+    },
+    "team_trust": {
+      "scale": [1, 5],
+      "grand_mean": 3.70,
+      "total_sd": 0.70,
+      "icc": 0.55,
+      "betas_std": {"extraversion": 0.12, "agreeableness": 0.24, "conscientiousness": 0.08, "emotional_stability": 0.18, "openness": 0.05},
+      "grand_mean_source": "De Jong, Dirks & Gillespie (2016) JAP 101:1134-1150",
+      "icc_source": "De Jong et al. (2016) + diary trust studies",
+      "beta_source": "Colquitt, Scott & LePine (2007) JAP 92:909-927"
+    }
+  },
+
+  "demographics": {
+    "age": {"dist": "truncnorm", "mean": 42, "sd": 11, "min": 22, "max": 67, "type": "int", "source": "BLS Labor Force Statistics 2023"},
+    "sex": {"dist": "categorical", "values": [0, 1], "probs": [0.53, 0.47], "type": "int", "source": "BLS labor force composition"},
+    "married": {"dist": "categorical", "values": ["Yes", "No"], "probs": [0.55, 0.45], "type": "str", "source": "US Census marital status 25-64"},
+    "seniority": {"dist": "categorical", "values": ["Non Manager", "Manager"], "probs": [0.62, 0.38], "type": "str", "source": "BLS managerial share"},
+    "tenure_years": {"dist": "truncnorm", "mean": 6.5, "sd": 5.5, "min": 0.1, "max": 30, "type": "float1", "source": "BLS median tenure (with long-tail)"},
+    "team_size": {"dist": "lognormal", "median": 7, "sigma": 0.6, "min": 2, "max": 60, "type": "int", "source": "modeling assumption (generic org)"},
+    "org_culture_creativity": {"dist": "truncnorm", "mean": 3.3, "sd": 0.8, "min": 1, "max": 5, "type": "float2", "source": "modeling assumption (mid-scale context)"},
+    "team_interdependence": {"dist": "truncnorm", "mean": 3.3, "sd": 0.8, "min": 1, "max": 5, "type": "float2", "source": "modeling assumption (mid-scale context)"},
+    "industry": {
+      "dist": "categorical",
+      "values": [
+        "Information Technology (Hardware, Software, Services)",
+        "Financial Services & Insurance",
+        "Healthcare and Pharmaceutical",
+        "Education",
+        "Manufacturing & Industrial Equipment",
+        "Government & Public Sector",
+        "Professional Services (e.g., Legal, Consulting)",
+        "Retail",
+        "Other (please specify):"
+      ],
+      "probs": [0.20, 0.15, 0.13, 0.11, 0.10, 0.09, 0.08, 0.07, 0.07],
+      "type": "str",
+      "source": "approx BLS sector employment shares; labels from downstream schema"
+    },
+    "day_of_week": {"dist": "categorical", "values": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], "probs": [0.2, 0.2, 0.2, 0.2, 0.2], "type": "str", "source": "uniform workweek (modeling assumption)"},
+    "work_location": {"dist": "categorical", "values": ["Primary Office", "Home", "Office", "Outside Office"], "probs": [0.45, 0.30, 0.15, 0.10], "type": "str", "source": "approx hybrid-work mix (modeling assumption)"}
+  },
+
+  "indicators": {
+    "_note": "Scale (min,max,type) per indicator from downstream config.INDICATOR_DIMENSIONS (schema/design spec, NOT real data). Sampled as truncnorm at midpoint with moderate SD = (max-min)/4. Forward inputs only.",
+    "behavioral_task_variety": [1, 7, "int"],
+    "behavioral_meeting_hours": [0, 8, "int"],
+    "behavioral_deep_work_hours": [0, 8, "float1"],
+    "behavioral_reactive_work_ratio": [0, 1, "float2"],
+    "behavioral_task_completion_count": [0, 16, "int"],
+    "behavioral_task_interruption_count": [0, 12, "int"],
+    "behavioral_break_minutes": [0, 90, "int"],
+    "behavioral_overtime_indication": [0, 1, "binary"],
+    "physical_avg_energy_level": [1, 7, "int"],
+    "physical_energy_trajectory": [-2, 2, "int"],
+    "physical_physical_discomfort_count": [0, 5, "int"],
+    "physical_location_changes": [0, 6, "int"],
+    "physical_movement_level": [1, 5, "int"],
+    "physical_commute_stress": [0, 1, "binary"],
+    "social_total_interaction_count": [0, 12, "int"],
+    "social_manager_interaction_minutes": [0, 60, "int"],
+    "social_manager_interaction_quality": [0, 7, "int"],
+    "social_peer_interaction_count": [0, 12, "int"],
+    "social_support_received_count": [0, 6, "int"],
+    "social_support_given_count": [0, 6, "int"],
+    "social_conflict_instances": [0, 4, "int"],
+    "social_isolation_hours": [0, 8, "float1"],
+    "social_meeting_speaking_ratio": [0, 1, "float2"],
+    "social_social_energy_drain": [1, 7, "int"],
+    "psychological_stress_level": [1, 7, "int"],
+    "psychological_autonomy_felt": [1, 7, "int"],
+    "psychological_competence_affirmation": [1, 7, "int"],
+    "psychological_meaning_connection": [1, 7, "int"],
+    "psychological_affect_valence": [-3, 3, "int"],
+    "psychological_affect_arousal": [1, 7, "int"],
+    "psychological_flow_hours": [0, 8, "float1"],
+    "psychological_rumination_level": [1, 7, "int"],
+    "psychological_anticipatory_dread": [0, 4, "int"],
+    "psychological_anticipatory_excitement": [0, 4, "int"],
+    "digital_email_volume": [0, 100, "int"],
+    "digital_slack_message_volume": [0, 50, "int"],
+    "digital_video_meeting_hours": [0, 8, "int"],
+    "digital_notification_overwhelm": [1, 7, "int"],
+    "digital_sync_vs_async_ratio": [0, 1, "float2"],
+    "digital_screen_fatigue": [1, 7, "int"],
+    "life_work_sleep_quality": [1, 7, "int"],
+    "life_work_sleep_hours": [3, 10, "float1"],
+    "life_work_morning_mood": [-2, 3, "int"],
+    "life_work_personal_stress_level": [1, 7, "int"],
+    "life_work_family_demands": [0, 4, "int"],
+    "life_work_health_concerns": [0, 3, "int"],
+    "life_work_financial_worry": [1, 7, "int"],
+    "life_work_major_positive_event": [0, 1, "binary"],
+    "life_work_major_negative_event": [0, 1, "binary"],
+    "life_work_exercise_today": [0, 1, "binary"],
+    "life_work_nutrition_quality": [1, 6, "int"],
+    "life_work_caffeine_intake": [0, 4, "int"],
+    "life_work_evening_plans_valence": [-2, 2, "int"],
+    "life_work_weekend_proximity_boost": [0, 3, "int"],
+    "life_work_upcoming_life_event": [-1, 2, "int"]
+  }
+}

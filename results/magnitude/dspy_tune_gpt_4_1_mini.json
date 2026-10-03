@@ -1,0 +1,8 @@
+{
+  "model": "gpt-4.1-mini",
+  "auto": "medium",
+  "n_train": 30,
+  "n_test": 30,
+  "baseline": 0.6929285362522869,
+  "tuned": 0.7023262756463154
+}

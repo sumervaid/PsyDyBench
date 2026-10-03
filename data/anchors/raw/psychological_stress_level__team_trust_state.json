@@ -1,0 +1,18 @@
+{
+  "indicator": "psychological_stress_level",
+  "state": "team_trust_state",
+  "claimed_meta_r": "-0.2",
+  "citation": "Colquitt, Scott & LePine (2007) JAP meta (trust \u2192 stress path)",
+  "construct_match": "Stress \u2192 Trust erosion",
+  "confidence": "low",
+  "queries": [
+    "Stress Trust erosion trust in team meta-analysis",
+    "Colquitt 2007 trust in team meta-analysis",
+    "title.search:Stress trust meta-analytic year:2007",
+    "title.search:trust meta-analytic year:2007",
+    "title.search:Stress trust year:2007"
+  ],
+  "retrieved_utc": "2026-06-19T17:45:01.794187+00:00",
+  "n_candidates": 0,
+  "candidates": []
+}

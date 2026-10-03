@@ -1,0 +1,91 @@
+{
+  "states": {
+    "work_engagement": {
+      "grand_mean": 4.8,
+      "grand_sd": 1.1,
+      "icc": 0.55,
+      "between_person_sd": 0.8158,
+      "within_person_sd": 0.7379
+    },
+    "psych_safety": {
+      "grand_mean": 2.9,
+      "grand_sd": 0.55,
+      "icc": 0.5,
+      "between_person_sd": 0.3889,
+      "within_person_sd": 0.3889
+    },
+    "work_creativity": {
+      "grand_mean": 3.6,
+      "grand_sd": 0.85,
+      "icc": 0.5,
+      "between_person_sd": 0.601,
+      "within_person_sd": 0.601
+    },
+    "team_trust": {
+      "grand_mean": 3.7,
+      "grand_sd": 0.7,
+      "icc": 0.55,
+      "between_person_sd": 0.5191,
+      "within_person_sd": 0.4696
+    }
+  },
+  "state_col_order": [
+    "work_engagement_state",
+    "psych_safety_state",
+    "work_creativity_state",
+    "team_trust_state"
+  ],
+  "between_person_state_corr": [
+    [
+      1.0,
+      0.4,
+      0.4,
+      0.4
+    ],
+    [
+      0.4,
+      1.0,
+      0.4,
+      0.4
+    ],
+    [
+      0.4,
+      0.4,
+      1.0,
+      0.4
+    ],
+    [
+      0.4,
+      0.4,
+      0.4,
+      1.0
+    ]
+  ],
+  "within_person_state_corr": [
+    [
+      1.0,
+      0.25,
+      0.25,
+      0.25
+    ],
+    [
+      0.25,
+      1.0,
+      0.25,
+      0.25
+    ],
+    [
+      0.25,
+      0.25,
+      1.0,
+      0.25
+    ],
+    [
+      0.25,
+      0.25,
+      0.25,
+      1.0
+    ]
+  ],
+  "_provenance": "grand_mean/total_sd/icc from data/seeds/norms.json (cited); between/within SD derived; cross-state corr literature-informed placeholders (between 0.40 / within 0.25) pending the pipeline finalisation."
+}

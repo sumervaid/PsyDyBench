@@ -1,0 +1,23 @@
+{
+  "indicator": "social_support_received_count",
+  "state": "team_trust_state",
+  "claimed_meta_r": 0.4,
+  "verified_meta_r": null,
+  "source_doi": "https://doi.org/10.1037/0021-9010.87.4.611",
+  "source_title": "Trust in leadership: Meta-analytic findings and implications for research and practice.",
+  "source_year": 2002,
+  "source_openalex_id": "https://openalex.org/W2017288619",
+  "citation_claimed": "Dirks & Ferrin (2002) JAP meta",
+  "citation_matched": true,
+  "evidence_quote": "In this study, the authors examined the findings and implications of the research on trust in leadership that has been conducted during the past 4 decades. First, the study provides estimates of the primary relationships between trust in leadership and key outcomes, antecedents, and correlates (k = 106). Second, the st",
+  "sample_n": null,
+  "n_studies_k": 106,
+  "confidence_claimed": "high",
+  "confidence_extraction": "low",
+  "abs_deviation": null,
+  "status": "oa_pdf_unreadable",
+  "extracted_utc": "2026-06-19T17:44:06.558716+00:00",
+  "note": "Meta-analytic source located but no focal correlation present in the abstract; requires full-text human extraction.",
+  "oa": true,
+  "oa_pdf_url": "https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=1674&amp;amp;context=lkcsb_research"
+}

@@ -1,0 +1,22 @@
+{
+  "indicator": "psychological_competence_affirmation",
+  "state": "work_creativity_state",
+  "claimed_meta_r": 0.3,
+  "verified_meta_r": 0.31,
+  "source_doi": "https://doi.org/10.1016/j.rpto.2015.06.002",
+  "source_title": "Personal factors of creativity: A second order meta-analysis",
+  "source_year": 2015,
+  "source_openalex_id": "https://openalex.org/W1859649255",
+  "citation_claimed": "Tierney & Farmer (2002) AMJ + Liu et al. (2016)",
+  "citation_matched": false,
+  "evidence_quote": "reativity and innovation and reports effects based on one (r) or two or more (r) meta-analyses. Emotional intelligence (r = .31), divergent thinking (r = .27), openness to experience (r = .22), creative personality (r = .21), intrinsic motivation",
+  "sample_n": null,
+  "n_studies_k": null,
+  "confidence_claimed": "medium",
+  "confidence_extraction": "medium",
+  "abs_deviation": 0.01,
+  "status": "abstract_unverified_suspect",
+  "extracted_utc": "2026-06-19T17:44:06.528287+00:00",
+  "note": "",
+  "review_flag": "abstract-step 0.31 artifact (identical across 4 pairs); re-verify before use"
+}

@@ -1,0 +1,22 @@
+{
+  "indicator": "psychological_anticipatory_dread",
+  "state": "work_creativity_state",
+  "claimed_meta_r": -0.2,
+  "verified_meta_r": null,
+  "source_doi": "https://doi.org/10.1016/j.bandc.2009.12.007",
+  "source_title": "Hemispheric specialization and creative thinking: A meta-analytic review of lateralization of creativity",
+  "source_year": 2010,
+  "source_openalex_id": "https://openalex.org/W2022884317",
+  "citation_claimed": "Byron, Khazanchi & Nazarian (2010) JAP: anxiety \u2192 creativity",
+  "citation_matched": false,
+  "evidence_quote": "",
+  "sample_n": null,
+  "n_studies_k": null,
+  "confidence_claimed": "medium",
+  "confidence_extraction": "low",
+  "abs_deviation": null,
+  "status": "source_found_effect_in_pdf",
+  "extracted_utc": "2026-06-19T17:44:06.520298+00:00",
+  "note": "Meta-analytic source located but no focal correlation present in the abstract; requires full-text human extraction.",
+  "oa": false
+}

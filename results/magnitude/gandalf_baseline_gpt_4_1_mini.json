@@ -1,0 +1,102 @@
+{
+  "engine": "internal_validity_v2",
+  "n_obs": 900,
+  "n_personas": 150,
+  "n_boot": 500,
+  "seed": 17,
+  "have_statsmodels": false,
+  "have_pingouin": false,
+  "margins": {
+    "hedges_g": 0.5,
+    "sd_ratio": [
+      0.6666666666666666,
+      1.5
+    ],
+    "within_sd_ratio": [
+      0.6666666666666666,
+      1.5
+    ],
+    "icc": 0.1,
+    "delta_r": 0.15,
+    "ar1": 0.15,
+    "ceiling_floor_pct": 0.15
+  },
+  "levels": {
+    "L1": {
+      "name": "Distributions",
+      "per_state": {},
+      "n_states_mean_equivalent": 0,
+      "n_states_evaluated": 0
+    },
+    "L2": {
+      "name": "Variance/ICC",
+      "per_state": {},
+      "n_states_within_sd_equivalent": 0,
+      "n_states_evaluated": 0
+    },
+    "L3": {
+      "name": "Nomological net",
+      "between_person": {},
+      "within_person": {},
+      "summary_between": {
+        "mean_abs_dr": null,
+        "n_pairs_with_target": 0,
+        "pct_pairs_equivalent": null,
+        "n_pairs_sourced_nonprior": 0,
+        "pct_pairs_equivalent_sourced_only": null
+      },
+      "summary_within": {
+        "mean_abs_dr": null,
+        "n_pairs_with_target": 0,
+        "pct_pairs_equivalent": null
+      },
+      "targets_available": false
+    },
+    "L4": {
+      "name": "Temporal (within-person multilevel AR1)",
+      "per_state": {},
+      "n_states_ar1_equivalent": 0,
+      "n_states_evaluated": 0,
+      "t6_caveat": "With ~6 days/persona the within-person AR(1) is downward-biased (Nickell/Hurwicz dynamic-panel bias ~ -(1+rho)/(T-1) ~ -0.26 here); the reported coefficient is the correct (between-person-free) estimand but UNDER-estimates true carry-over. Treat L4 as descriptive evidence of direction/sign, not a precise autocorrelation. Verified in scripts/validation/_ar1_spec_check.py."
+    },
+    "L6": {
+      "name": "Structure (multilevel dimensionality)",
+      "note": "4 indicators -> 1-factor CFA is under-identified (df=2); reporting PC1 variance explained + eigenvalues at both levels instead of CFI/RMSEA.",
+      "between_person": {
+        "pc1_var_explained": null,
+        "pc1_var_explained_ci": [
+          null,
+          null
+        ],
+        "eigenvalues": null,
+        "n_states": 0
+      },
+      "within_person": {
+        "pc1_var_explained": null,
+        "pc1_var_explained_ci": [
+          null,
+          null
+        ],
+        "eigenvalues": null,
+        "n_states": 0
+      },
+      "target_status": "TARGET_UNAVAILABLE"
+    },
+    "L7": {
+      "name": "Range/ceiling",
+      "per_state": {},
+      "n_states_with_pileup": 0
+    }
+  },
+  "summary": {
+    "n_state_criteria_equivalent": 0,
+    "n_state_criteria_evaluated": 0,
+    "L3_mean_abs_dr_between": null,
+    "L3_pct_pairs_equivalent_between": null,
+    "L3_n_pairs_with_target_between": 0,
+    "L3_n_pairs_sourced_nonprior": 0,
+    "L3_pct_pairs_equivalent_sourced_only": null,
+    "L3_mean_abs_dr_within": null,
+    "L3_pct_pairs_equivalent_within": null
+  }
+}

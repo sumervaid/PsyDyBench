@@ -1,0 +1,848 @@
+{
+  "engine": "internal_validity_v2",
+  "n_obs": 1800,
+  "n_personas": 300,
+  "n_boot": 1000,
+  "seed": 17,
+  "have_statsmodels": true,
+  "have_pingouin": true,
+  "margins": {
+    "hedges_g": 0.5,
+    "sd_ratio": [
+      0.6666666666666666,
+      1.5
+    ],
+    "within_sd_ratio": [
+      0.6666666666666666,
+      1.5
+    ],
+    "icc": 0.1,
+    "delta_r": 0.15,
+    "ar1": 0.15,
+    "ceiling_floor_pct": 0.15
+  },
+  "levels": {
+    "L1": {
+      "name": "Distributions",
+      "per_state": {
+        "work_engagement": {
+          "synth_mean": 3.6112,
+          "synth_sd": 1.0092,
+          "target_mean": 4.8,
+          "target_sd": 1.1,
+          "hedges_g": -1.0803,
+          "hedges_g_ci": [
+            -1.1116,
+            -1.0526
+          ],
+          "mean_equivalence": {
+            "verdict": "different",
+            "diff": -1.0803,
+            "ci90": [
+              -1.1059,
+              -1.0567
+            ],
+            "margin": [
+              -0.5,
+              0.5
+            ]
+          },
+          "sd_ratio": 0.9175,
+          "sd_ratio_ci": [
+            0.9008,
+            0.9359
+          ],
+          "sd_equivalence": {
+            "verdict": "equivalent",
+            "ratio": 0.9175,
+            "ci90_logratio": [
+              -0.1023,
+              -0.069
+            ],
+            "band": [
+              0.6666666666666666,
+              1.5
+            ]
+          },
+          "target_status": "OK"
+        },
+        "psych_safety": {
+          "synth_mean": 2.3242,
+          "synth_sd": 0.5346,
+          "target_mean": 2.9,
+          "target_sd": 0.55,
+          "hedges_g": -1.0465,
+          "hedges_g_ci": [
+            -1.0849,
+            -1.0051
+          ],
+          "mean_equivalence": {
+            "verdict": "different",
+            "diff": -1.0465,
+            "ci90": [
+              -1.0801,
+              -1.0128
+            ],
+            "margin": [
+              -0.5,
+              0.5
+            ]
+          },
+          "sd_ratio": 0.9719,
+          "sd_ratio_ci": [
+            0.9424,
+            0.9995
+          ],
+          "sd_equivalence": {
+            "verdict": "equivalent",
+            "ratio": 0.9719,
+            "ci90_logratio": [
+              -0.0549,
+              -0.0066
+            ],
+            "band": [
+              0.6666666666666666,
+              1.5
+            ]
+          },
+          "target_status": "OK"
+        },
+        "work_creativity": {
+          "synth_mean": 2.9261,
+          "synth_sd": 0.8034,
+          "target_mean": 3.6,
+          "target_sd": 0.85,
+          "hedges_g": -0.7925,
+          "hedges_g_ci": [
+            -0.8293,
+            -0.7578
+          ],
+          "mean_equivalence": {
+            "verdict": "different",
+            "diff": -0.7925,
+            "ci90": [
+              -0.8223,
+              -0.7636
+            ],
+            "margin": [
+              -0.5,
+              0.5
+            ]
+          },
+          "sd_ratio": 0.9452,
+          "sd_ratio_ci": [
+            0.9245,
+            0.9647
+          ],
+          "sd_equivalence": {
+            "verdict": "equivalent",
+            "ratio": 0.9452,
+            "ci90_logratio": [
+              -0.0752,
+              -0.0407
+            ],
+            "band": [
+              0.6666666666666666,
+              1.5
+            ]
+          },
+          "target_status": "OK"
+        },
+        "team_trust": {
+          "synth_mean": 2.7559,
+          "synth_sd": 0.6117,
+          "target_mean": 3.7,
+          "target_sd": 0.7,
+          "hedges_g": -1.3481,
+          "hedges_g_ci": [
+            -1.386,
+            -1.3084
+          ],
+          "mean_equivalence": {
+            "verdict": "different",
+            "diff": -1.3481,
+            "ci90": [
+              -1.3819,
+              -1.3146
+            ],
+            "margin": [
+              -0.5,
+              0.5
+            ]
+          },
+          "sd_ratio": 0.8738,
+          "sd_ratio_ci": [
+            0.8494,
+            0.901
+          ],
+          "sd_equivalence": {
+            "verdict": "equivalent",
+            "ratio": 0.8738,
+            "ci90_logratio": [
+              -0.1596,
+              -0.1098
+            ],
+            "band": [
+              0.6666666666666666,
+              1.5
+            ]
+          },
+          "target_status": "OK"
+        }
+      },
+      "n_states_mean_equivalent": 0,
+      "n_states_evaluated": 4
+    },
+    "L2": {
+      "name": "Variance/ICC",
+      "per_state": {
+        "work_engagement": {
+          "synth_icc": 0.0,
+          "synth_between_sd": 0.0024,
+          "synth_within_sd": 1.0092,
+          "target_icc": 0.55,
+          "target_within_sd": 0.7379,
+          "icc_method": "pingouin",
+          "synth_icc_ci": [
+            0.0642,
+            0.0855
+          ],
+          "icc_equivalence": {
+            "verdict": "different",
+            "diff": -0.55,
+            "ci90": [
+              -0.4846,
+              -0.4665
+            ],
+            "margin": [
+              -0.1,
+              0.1
+            ]
+          },
+          "synth_within_sd_ci": [
+            1.0312,
+            1.0779
+          ],
+          "within_sd_equivalence": {
+            "verdict": "equivalent",
+            "ratio": 1.3677,
+            "ci90_logratio": [
+              0.3393,
+              0.3756
+            ],
+            "band": [
+              0.6666666666666666,
+              1.5
+            ]
+          },
+          "target_status": "OK"
+        },
+        "psych_safety": {
+          "synth_icc": 0.019,
+          "synth_between_sd": 0.0738,
+          "synth_within_sd": 0.5305,
+          "target_icc": 0.5,
+          "target_within_sd": 0.3889,
+          "icc_method": "pingouin",
+          "synth_icc_ci": [
+            0.1075,
+            0.141
+          ],
+          "icc_equivalence": {
+            "verdict": "different",
+            "diff": -0.481,
+            "ci90": [
+              -0.3909,
+              -0.3614
+            ],
+            "margin": [
+              -0.1,
+              0.1
+            ]
+          },
+          "synth_within_sd_ci": [
+            0.524,
+            0.5588
+          ],
+          "within_sd_equivalence": {
+            "verdict": "equivalent",
+            "ratio": 1.3642,
+            "ci90_logratio": [
+              0.3036,
+              0.3572
+            ],
+            "band": [
+              0.6666666666666666,
+              1.5
+            ]
+          },
+          "target_status": "OK"
+        },
+        "work_creativity": {
+          "synth_icc": 0.0,
+          "synth_between_sd": 0.0003,
+          "synth_within_sd": 0.8034,
+          "target_icc": 0.5,
+          "target_within_sd": 0.601,
+          "icc_method": "pingouin",
+          "synth_icc_ci": [
+            0.0802,
+            0.1081
+          ],
+          "icc_equivalence": {
+            "verdict": "different",
+            "diff": -0.5,
+            "ci90": [
+              -0.4178,
+              -0.395
+            ],
+            "margin": [
+              -0.1,
+              0.1
+            ]
+          },
+          "synth_within_sd_ci": [
+            0.8104,
+            0.8491
+          ],
+          "within_sd_equivalence": {
+            "verdict": "equivalent",
+            "ratio": 1.3367,
+            "ci90_logratio": [
+              0.3026,
+              0.3418
+            ],
+            "band": [
+              0.6666666666666666,
+              1.5
+            ]
+          },
+          "target_status": "OK"
+        },
+        "team_trust": {
+          "synth_icc": 0.002,
+          "synth_between_sd": 0.0272,
+          "synth_within_sd": 0.6111,
+          "target_icc": 0.55,
+          "target_within_sd": 0.4696,
+          "icc_method": "pingouin",
+          "synth_icc_ci": [
+            0.1157,
+            0.1532
+          ],
+          "icc_equivalence": {
+            "verdict": "different",
+            "diff": -0.548,
+            "ci90": [
+              -0.4313,
+              -0.3995
+            ],
+            "margin": [
+              -0.1,
+              0.1
+            ]
+          },
+          "synth_within_sd_ci": [
+            0.5966,
+            0.6353
+          ],
+          "within_sd_equivalence": {
+            "verdict": "equivalent",
+            "ratio": 1.3014,
+            "ci90_logratio": [
+              0.2451,
+              0.2966
+            ],
+            "band": [
+              0.6666666666666666,
+              1.5
+            ]
+          },
+          "target_status": "OK"
+        }
+      },
+      "n_states_within_sd_equivalent": 4,
+      "n_states_evaluated": 4
+    },
+    "L3": {
+      "name": "Nomological net",
+      "between_person": {
+        "work_engagement__psych_safety": {
+          "synth_r": 0.6247,
+          "synth_r_ci": [
+            0.5553,
+            0.6862
+          ],
+          "target_r": 0.45,
+          "target_status": "OK",
+          "margin": 0.1,
+          "is_expert_prior": false,
+          "source_status": "full_text_verified",
+          "equivalence": {
+            "verdict": "different",
+            "diff": 0.1747,
+            "ci90": [
+              0.1165,
+              0.2282
+            ],
+            "margin": [
+              -0.1,
+              0.1
+            ]
+          }
+        },
+        "work_engagement__work_creativity": {
+          "synth_r": 0.712,
+          "synth_r_ci": [
+            0.6574,
+            0.7637
+          ],
+          "target_r": 0.46,
+          "target_status": "OK",
+          "margin": 0.1,
+          "is_expert_prior": false,
+          "source_status": "verified",
+          "equivalence": {
+            "verdict": "different",
+            "diff": 0.252,
+            "ci90": [
+              0.2053,
+              0.2969
+            ],
+            "margin": [
+              -0.1,
+              0.1
+            ]
+          }
+        },
+        "work_engagement__team_trust": {
+          "synth_r": 0.549,
+          "synth_r_ci": [
+            0.4634,
+            0.6283
+          ],
+          "target_r": 0.45,
+          "target_status": "OK",
+          "margin": 0.2,
+          "is_expert_prior": true,
+          "source_status": "no_meta_found",
+          "equivalence": {
+            "verdict": "equivalent",
+            "diff": 0.099,
+            "ci90": [
+              0.0249,
+              0.1673
+            ],
+            "margin": [
+              -0.2,
+              0.2
+            ]
+          }
+        },
+        "psych_safety__work_creativity": {
+          "synth_r": 0.5318,
+          "synth_r_ci": [
+            0.4476,
+            0.6048
+          ],
+          "target_r": 0.13,
+          "target_status": "OK",
+          "margin": 0.2,
+          "is_expert_prior": false,
+          "source_status": "abstract_only",
+          "equivalence": {
+            "verdict": "different",
+            "diff": 0.4018,
+            "ci90": [
+              0.3318,
+              0.4664
+            ],
+            "margin": [
+              -0.2,
+              0.2
+            ]
+          }
+        },
+        "psych_safety__team_trust": {
+          "synth_r": 0.5504,
+          "synth_r_ci": [
+            0.4705,
+            0.624
+          ],
+          "target_r": 0.45,
+          "target_status": "OK",
+          "margin": 0.15,
+          "is_expert_prior": false,
+          "source_status": "full_text_verified",
+          "equivalence": {
+            "verdict": "inconclusive",
+            "diff": 0.1004,
+            "ci90": [
+              0.0356,
+              0.1657
+            ],
+            "margin": [
+              -0.15,
+              0.15
+            ]
+          }
+        },
+        "work_creativity__team_trust": {
+          "synth_r": 0.5111,
+          "synth_r_ci": [
+            0.4233,
+            0.5953
+          ],
+          "target_r": 0.5,
+          "target_status": "OK",
+          "margin": 0.12,
+          "is_expert_prior": false,
+          "source_status": "verified",
+          "equivalence": {
+            "verdict": "equivalent",
+            "diff": 0.0111,
+            "ci90": [
+              -0.0603,
+              0.0822
+            ],
+            "margin": [
+              -0.12,
+              0.12
+            ]
+          }
+        }
+      },
+      "within_person": {
+        "work_engagement__psych_safety": {
+          "synth_r": 0.8006,
+          "synth_r_ci": [
+            0.7864,
+            0.8145
+          ],
+          "target_r": null,
+          "target_status": "TARGET_UNAVAILABLE",
+          "margin": null,
+          "is_expert_prior": null,
+          "source_status": null,
+          "equivalence": {
+            "verdict": null
+          }
+        },
+        "work_engagement__work_creativity": {
+          "synth_r": 0.8949,
+          "synth_r_ci": [
+            0.8868,
+            0.9027
+          ],
+          "target_r": null,
+          "target_status": "TARGET_UNAVAILABLE",
+          "margin": null,
+          "is_expert_prior": null,
+          "source_status": null,
+          "equivalence": {
+            "verdict": null
+          }
+        },
+        "work_engagement__team_trust": {
+          "synth_r": 0.7595,
+          "synth_r_ci": [
+            0.7404,
+            0.7785
+          ],
+          "target_r": null,
+          "target_status": "TARGET_UNAVAILABLE",
+          "margin": null,
+          "is_expert_prior": null,
+          "source_status": null,
+          "equivalence": {
+            "verdict": null
+          }
+        },
+        "psych_safety__work_creativity": {
+          "synth_r": 0.7957,
+          "synth_r_ci": [
+            0.7796,
+            0.8113
+          ],
+          "target_r": null,
+          "target_status": "TARGET_UNAVAILABLE",
+          "margin": null,
+          "is_expert_prior": null,
+          "source_status": null,
+          "equivalence": {
+            "verdict": null
+          }
+        },
+        "psych_safety__team_trust": {
+          "synth_r": 0.7008,
+          "synth_r_ci": [
+            0.6802,
+            0.7205
+          ],
+          "target_r": null,
+          "target_status": "TARGET_UNAVAILABLE",
+          "margin": null,
+          "is_expert_prior": null,
+          "source_status": null,
+          "equivalence": {
+            "verdict": null
+          }
+        },
+        "work_creativity__team_trust": {
+          "synth_r": 0.7555,
+          "synth_r_ci": [
+            0.7331,
+            0.7754
+          ],
+          "target_r": null,
+          "target_status": "TARGET_UNAVAILABLE",
+          "margin": null,
+          "is_expert_prior": null,
+          "source_status": null,
+          "equivalence": {
+            "verdict": null
+          }
+        }
+      },
+      "summary_between": {
+        "mean_abs_dr": 0.1732,
+        "n_pairs_with_target": 6,
+        "pct_pairs_equivalent": 33.3,
+        "n_pairs_sourced_nonprior": 5,
+        "pct_pairs_equivalent_sourced_only": 20.0
+      },
+      "summary_within": {
+        "mean_abs_dr": null,
+        "n_pairs_with_target": 0,
+        "pct_pairs_equivalent": null
+      },
+      "targets_available": true
+    },
+    "L4": {
+      "name": "Temporal (within-person multilevel AR1)",
+      "per_state": {
+        "work_engagement": {
+          "ar1_fixed": -0.1865,
+          "ar1_wald_ci": [
+            -0.2362,
+            -0.1368
+          ],
+          "ar1_method": "mixedlm",
+          "pct_personas_estimable": 99.7,
+          "n_lag_pairs": 1500,
+          "ar1_boot_ci": [
+            -0.2294,
+            -0.1429
+          ],
+          "ar1_equivalence": {
+            "verdict": null
+          },
+          "target_ar1": null,
+          "target_status": "TARGET_UNAVAILABLE"
+        },
+        "psych_safety": {
+          "ar1_fixed": -0.1793,
+          "ar1_wald_ci": [
+            -0.2288,
+            -0.1298
+          ],
+          "ar1_method": "mixedlm",
+          "pct_personas_estimable": 95.3,
+          "n_lag_pairs": 1500,
+          "ar1_boot_ci": [
+            -0.2224,
+            -0.136
+          ],
+          "ar1_equivalence": {
+            "verdict": null
+          },
+          "target_ar1": null,
+          "target_status": "TARGET_UNAVAILABLE"
+        },
+        "work_creativity": {
+          "ar1_fixed": -0.2082,
+          "ar1_wald_ci": [
+            -0.2572,
+            -0.1592
+          ],
+          "ar1_method": "mixedlm",
+          "pct_personas_estimable": 99.7,
+          "n_lag_pairs": 1500,
+          "ar1_boot_ci": [
+            -0.248,
+            -0.1565
+          ],
+          "ar1_equivalence": {
+            "verdict": null
+          },
+          "target_ar1": null,
+          "target_status": "TARGET_UNAVAILABLE"
+        },
+        "team_trust": {
+          "ar1_fixed": -0.2121,
+          "ar1_wald_ci": [
+            -0.2611,
+            -0.1631
+          ],
+          "ar1_method": "mixedlm",
+          "pct_personas_estimable": 95.3,
+          "n_lag_pairs": 1500,
+          "ar1_boot_ci": [
+            -0.2569,
+            -0.1618
+          ],
+          "ar1_equivalence": {
+            "verdict": null
+          },
+          "target_ar1": null,
+          "target_status": "TARGET_UNAVAILABLE"
+        }
+      },
+      "n_states_ar1_equivalent": 0,
+      "n_states_evaluated": 0,
+      "t6_caveat": "With ~6 days/persona the within-person AR(1) is downward-biased (Nickell/Hurwicz dynamic-panel bias ~ -(1+rho)/(T-1) ~ -0.26 here); the reported coefficient is the correct (between-person-free) estimand but UNDER-estimates true carry-over. Treat L4 as descriptive evidence of direction/sign, not a precise autocorrelation. Verified in scripts/validation/_ar1_spec_check.py."
+    },
+    "L6": {
+      "name": "Structure (multilevel dimensionality)",
+      "note": "4 indicators -> 1-factor CFA is under-identified (df=2); reporting PC1 variance explained + eigenvalues at both levels instead of CFI/RMSEA.",
+      "between_person": {
+        "pc1_var_explained": 0.686,
+        "pc1_var_explained_ci": [
+          0.6438,
+          0.7232
+        ],
+        "eigenvalues": [
+          2.7438,
+          0.5381,
+          0.4465,
+          0.2716
+        ],
+        "n_states": 4
+      },
+      "within_person": {
+        "pc1_var_explained": 0.8392,
+        "pc1_var_explained_ci": [
+          0.8304,
+          0.8487
+        ],
+        "eigenvalues": [
+          3.3569,
+          0.3099,
+          0.2283,
+          0.105
+        ],
+        "n_states": 4
+      },
+      "target_status": "TARGET_UNAVAILABLE"
+    },
+    "L7": {
+      "name": "Range/ceiling",
+      "per_state": {
+        "work_engagement": {
+          "pct_floor": 0.0,
+          "pct_floor_ci": [
+            0.0,
+            0.0
+          ],
+          "pct_ceiling": 0.0,
+          "pct_ceiling_ci": [
+            0.0,
+            0.0
+          ],
+          "floor_problematic": false,
+          "ceiling_problematic": false,
+          "ceiling_floor_convention_pct": 15.0,
+          "observed_min": 2.0,
+          "observed_max": 6.0,
+          "expected_2sd_band": [
+            2.6,
+            7.0
+          ],
+          "coverage_of_2sd_band": 0.7727,
+          "target_status": "OK"
+        },
+        "psych_safety": {
+          "pct_floor": 2.78,
+          "pct_floor_ci": [
+            2.11,
+            3.5
+          ],
+          "pct_ceiling": 0.06,
+          "pct_ceiling_ci": [
+            0.0,
+            0.17
+          ],
+          "floor_problematic": false,
+          "ceiling_problematic": false,
+          "ceiling_floor_convention_pct": 15.0,
+          "observed_min": 1.0,
+          "observed_max": 4.0,
+          "expected_2sd_band": [
+            1.8,
+            4.0
+          ],
+          "coverage_of_2sd_band": 1.0,
+          "target_status": "OK"
+        },
+        "work_creativity": {
+          "pct_floor": 0.39,
+          "pct_floor_ci": [
+            0.17,
+            0.72
+          ],
+          "pct_ceiling": 0.0,
+          "pct_ceiling_ci": [
+            0.0,
+            0.0
+          ],
+          "floor_problematic": false,
+          "ceiling_problematic": false,
+          "ceiling_floor_convention_pct": 15.0,
+          "observed_min": 1.0,
+          "observed_max": 5.0,
+          "expected_2sd_band": [
+            1.9,
+            5.3
+          ],
+          "coverage_of_2sd_band": 0.9118,
+          "target_status": "OK"
+        },
+        "team_trust": {
+          "pct_floor": 0.06,
+          "pct_floor_ci": [
+            0.0,
+            0.17
+          ],
+          "pct_ceiling": 0.0,
+          "pct_ceiling_ci": [
+            0.0,
+            0.0
+          ],
+          "floor_problematic": false,
+          "ceiling_problematic": false,
+          "ceiling_floor_convention_pct": 15.0,
+          "observed_min": 1.0,
+          "observed_max": 4.2,
+          "expected_2sd_band": [
+            2.3,
+            5.0
+          ],
+          "coverage_of_2sd_band": 0.7037,
+          "target_status": "OK"
+        }
+      },
+      "n_states_with_pileup": 0
+    }
+  },
+  "summary": {
+    "n_state_criteria_equivalent": 4,
+    "n_state_criteria_evaluated": 8,
+    "L3_mean_abs_dr_between": 0.1732,
+    "L3_pct_pairs_equivalent_between": 33.3,
+    "L3_n_pairs_with_target_between": 6,
+    "L3_n_pairs_sourced_nonprior": 5,
+    "L3_pct_pairs_equivalent_sourced_only": 20.0,
+    "L3_mean_abs_dr_within": null,
+    "L3_pct_pairs_equivalent_within": null
+  }
+}

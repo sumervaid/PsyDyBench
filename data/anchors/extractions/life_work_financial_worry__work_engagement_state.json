@@ -1,0 +1,23 @@
+{
+  "indicator": "life_work_financial_worry",
+  "state": "work_engagement_state",
+  "claimed_meta_r": -0.15,
+  "verified_meta_r": 0.23,
+  "source_doi": "https://doi.org/10.1007/s11747-010-0211-8",
+  "source_title": "Drivers of sales performance: a contemporary meta-analysis. Have salespeople become knowledge brokers?",
+  "source_year": 2010,
+  "source_openalex_id": "https://openalex.org/W2139898527",
+  "citation_claimed": "Schieman & Young (2011) J Health Soc Behavior",
+  "citation_matched": false,
+  "evidence_quote": "In addition, the model demonstrates a significant effect for work engagement (\u03b2=.23, p<.05).",
+  "sample_n": null,
+  "n_studies_k": null,
+  "confidence_claimed": "low",
+  "confidence_extraction": "full_text",
+  "abs_deviation": null,
+  "status": "corrected",
+  "extracted_utc": "2026-06-19T17:44:06.499141+00:00",
+  "note": "Meta-analytic source located but no focal correlation present in the abstract; requires full-text human extraction.",
+  "oa": true,
+  "oa_pdf_url": "https://link.springer.com/content/pdf/10.1007/s11747-010-0211-8.pdf"
+}

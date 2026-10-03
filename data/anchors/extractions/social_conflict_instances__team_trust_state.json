@@ -1,0 +1,23 @@
+{
+  "indicator": "social_conflict_instances",
+  "state": "team_trust_state",
+  "claimed_meta_r": -0.33,
+  "verified_meta_r": null,
+  "source_doi": "https://doi.org/10.1111/j.1365-2133.2010.09883.x",
+  "source_title": "Revised U.K. guidelines for the management of cutaneous melanoma 2010",
+  "source_year": 2010,
+  "source_openalex_id": "https://openalex.org/W3023662983",
+  "citation_claimed": "De Jong & Elfring (2010) AMJ; Dirks & Ferrin (2002)",
+  "citation_matched": true,
+  "evidence_quote": "NHS Evidence has accredited the process used by the British Association of Dermatologists to produce guidelines. Accreditation is valid for three years from May 2010 and is applicable to guidance produced using the processes described in the British Association of Dermatologists' guidelines development manual (Bell & O",
+  "sample_n": null,
+  "n_studies_k": null,
+  "confidence_claimed": "medium",
+  "confidence_extraction": "low",
+  "abs_deviation": null,
+  "status": "oa_pdf_unreadable",
+  "extracted_utc": "2026-06-19T17:44:06.543799+00:00",
+  "note": "Meta-analytic source located but no focal correlation present in the abstract; requires full-text human extraction.",
+  "oa": true,
+  "oa_pdf_url": "https://academic.oup.com/bjd/article-pdf/163/2/238/47497190/bjd0238.pdf"
+}

@@ -1,0 +1,23 @@
+{
+  "indicator": "social_social_energy_drain",
+  "state": "work_engagement_state",
+  "claimed_meta_r": -0.22,
+  "verified_meta_r": -0.19,
+  "source_doi": "https://doi.org/10.17105/spr-2017-0035.v46-3",
+  "source_title": "Affective Teacher\u2013Student Relationships and Students' Engagement and Achievement: A Meta-Analytic Update and Test of the Mediating Role of Engagement",
+  "source_year": 2017,
+  "source_openalex_id": "https://openalex.org/W2766134982",
+  "citation_claimed": "Bakker & Demerouti (2017) JOB: emotional demands",
+  "citation_matched": false,
+  "evidence_quote": "negative relationships had a negative, small to medium effect on engagement (\u03b2 = \u2212.19)",
+  "sample_n": null,
+  "n_studies_k": 189,
+  "confidence_claimed": "low",
+  "confidence_extraction": "full_text",
+  "abs_deviation": null,
+  "status": "verified",
+  "extracted_utc": "2026-06-19T17:44:06.555213+00:00",
+  "note": "Meta-analytic source located but no focal correlation present in the abstract; requires full-text human extraction.",
+  "oa": true,
+  "oa_pdf_url": "https://pure.uva.nl/ws/files/21283991/Affective_Teacher_Student_Relationships_and_Students_Engagement_and_Achievement.pdf"
+}

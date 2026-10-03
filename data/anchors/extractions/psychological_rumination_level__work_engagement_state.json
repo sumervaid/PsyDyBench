@@ -1,0 +1,23 @@
+{
+  "indicator": "psychological_rumination_level",
+  "state": "work_engagement_state",
+  "claimed_meta_r": -0.25,
+  "verified_meta_r": 0.53,
+  "source_doi": "https://doi.org/10.5014/ajot.2012.001156",
+  "source_title": "Relationship Between Fall-Related Efficacy and Activity Engagement in Community-Dwelling Older Adults: A Meta-Analytic Review",
+  "source_year": 2012,
+  "source_openalex_id": "https://openalex.org/W2130150996",
+  "citation_claimed": "Querstret & Cropley (2012) JOHP (primary study)",
+  "citation_matched": false,
+  "evidence_quote": "ross-sectional and prospective studies found a strong positive relationship between fall-related efficacy and activity (r = .53; 95% CI [.47, .58]). An insufficient number of studies examining fall-related efficacy and participation were available",
+  "sample_n": null,
+  "n_studies_k": null,
+  "confidence_claimed": "low",
+  "confidence_extraction": "medium",
+  "abs_deviation": 0.78,
+  "status": "oa_pdf_unreadable",
+  "extracted_utc": "2026-06-19T17:44:06.535390+00:00",
+  "note": "",
+  "oa": true,
+  "oa_pdf_url": "https://research.aota.org/ajot/article-pdf/66/2/137/25148/137.pdf"
+}

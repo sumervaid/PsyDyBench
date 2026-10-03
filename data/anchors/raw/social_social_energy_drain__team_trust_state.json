@@ -1,0 +1,18 @@
+{
+  "indicator": "social_social_energy_drain",
+  "state": "team_trust_state",
+  "claimed_meta_r": "-0.28",
+  "citation": "Inferred from Dirks & Ferrin (2002) interpersonal risk path",
+  "construct_match": "Social drain \u2192 Trust erosion",
+  "confidence": "low",
+  "queries": [
+    "Social drain Trust erosion trust in team meta-analysis",
+    "title.search:Social drain trust meta-analytic year:2002",
+    "title.search:drain trust meta-analytic year:2002",
+    "title.search:Social drain trust year:2002",
+    "title.search:trust meta-analytic year:2002"
+  ],
+  "retrieved_utc": "2026-06-19T17:45:07.456725+00:00",
+  "n_candidates": 0,
+  "candidates": []
+}

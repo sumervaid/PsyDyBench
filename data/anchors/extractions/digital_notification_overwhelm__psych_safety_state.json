@@ -1,0 +1,23 @@
+{
+  "indicator": "digital_notification_overwhelm",
+  "state": "psych_safety_state",
+  "claimed_meta_r": -0.15,
+  "verified_meta_r": null,
+  "source_doi": "https://doi.org/10.1002/wps.21188",
+  "source_title": "From \u201conline brains\u201d to \u201conline lives\u201d: understanding the individualized impacts of Internet use across psychological, cognitive and social dimensions",
+  "source_year": 2024,
+  "source_openalex_id": "https://openalex.org/W4396801641",
+  "citation_claimed": "Sarabadani et al. (2023) chained path",
+  "citation_matched": false,
+  "evidence_quote": "In response to the mass adoption and extensive usage of Internet-enabled devices across the world, a major review published in this journal in 2019 examined the impact of Internet on human cognition, discussing the concepts and ideas behind the \"online brain\". Since then, the online world has become further entwined wi",
+  "sample_n": null,
+  "n_studies_k": null,
+  "confidence_claimed": "low",
+  "confidence_extraction": "low",
+  "abs_deviation": null,
+  "status": "oa_pdf_unreadable",
+  "extracted_utc": "2026-06-19T17:44:06.492046+00:00",
+  "note": "Meta-analytic source located but no focal correlation present in the abstract; requires full-text human extraction.",
+  "oa": true,
+  "oa_pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/wps.21188"
+}

@@ -1,0 +1,26 @@
+# Secrets — never commit. Scripts read API keys from environment variables only.
+.env
+*.env
+*api_key*
+*API_KEY*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# Per-call API usage logs (cost accounting written at run time)
+results/budget/
+
+# Copyrighted publisher PDFs used for anchor verification — not redistributable.
+# Only the extracted numeric values and provenance are committed (data/seeds/fulltext_extractions.json).
+literature/source_papers/
+literature/source_text/
+
+# Run-time logs
+*.log

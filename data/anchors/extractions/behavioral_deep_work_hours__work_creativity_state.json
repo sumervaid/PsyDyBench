@@ -1,0 +1,22 @@
+{
+  "indicator": "behavioral_deep_work_hours",
+  "state": "work_creativity_state",
+  "claimed_meta_r": 0.25,
+  "verified_meta_r": null,
+  "source_doi": "https://doi.org/10.1037/a0027497",
+  "source_title": "Psychoticism and creativity: A meta-analytic review.",
+  "source_year": 2012,
+  "source_openalex_id": "https://openalex.org/W2332586348",
+  "citation_claimed": "Hammond et al. (2011) JAP meta (cognitive engagement)",
+  "citation_matched": false,
+  "evidence_quote": "",
+  "sample_n": null,
+  "n_studies_k": null,
+  "confidence_claimed": "low",
+  "confidence_extraction": "low",
+  "abs_deviation": null,
+  "status": "source_found_effect_in_pdf",
+  "extracted_utc": "2026-06-19T17:44:06.483321+00:00",
+  "note": "Meta-analytic source located but no focal correlation present in the abstract; requires full-text human extraction.",
+  "oa": false
+}

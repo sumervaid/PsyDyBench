@@ -1,0 +1,23 @@
+{
+  "indicator": "digital_screen_fatigue",
+  "state": "work_engagement_state",
+  "claimed_meta_r": -0.2,
+  "verified_meta_r": null,
+  "source_doi": "https://doi.org/10.1007/s12671-020-01328-3",
+  "source_title": "Mindfulness-Based Programs in the Workplace: a Meta-Analysis of Randomized Controlled Trials",
+  "source_year": 2020,
+  "source_openalex_id": "https://openalex.org/W3009071149",
+  "citation_claimed": "Sarabadani et al. (2023) techno-strain",
+  "citation_matched": false,
+  "evidence_quote": "Abstract Objectives Given the complex demands of many workplaces, there is growing interest in the potential beneficial effects of mindfulness-based programs (MBPs) for employees. This meta-analysis systematically synthesizes the results of randomized controlled studies conducted in various workplace settings. Methods",
+  "sample_n": 2689,
+  "n_studies_k": 56,
+  "confidence_claimed": "low",
+  "confidence_extraction": "low",
+  "abs_deviation": null,
+  "status": "oa_effect_not_found",
+  "extracted_utc": "2026-06-19T17:44:06.493911+00:00",
+  "note": "Meta-analytic source located but no focal correlation present in the abstract; requires full-text human extraction.",
+  "oa": true,
+  "oa_pdf_url": "https://link.springer.com/content/pdf/10.1007/s12671-020-01328-3.pdf"
+}

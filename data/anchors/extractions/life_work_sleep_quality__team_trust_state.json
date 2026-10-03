@@ -1,0 +1,23 @@
+{
+  "indicator": "life_work_sleep_quality",
+  "state": "team_trust_state",
+  "claimed_meta_r": 0.12,
+  "verified_meta_r": null,
+  "source_doi": "https://doi.org/10.1007/s10551-022-05184-0",
+  "source_title": "Leadership and Workplace Aggression: A Meta-analysis",
+  "source_year": 2022,
+  "source_openalex_id": "https://openalex.org/W4285491487",
+  "citation_claimed": "Barnes et al. (2015) AMJ; sleep \u2192 interpersonal functioning",
+  "citation_matched": false,
+  "evidence_quote": "Abstract Workplace aggression (bullying, incivility, and similar forms of interpersonal mistreatment) has been established as a prevalent and detrimental issue in organizations. While numerous studies have documented the important role of leaders in inhibiting or accelerating workplace aggression, a systematic overview",
+  "sample_n": 115190,
+  "n_studies_k": 165,
+  "confidence_claimed": "low",
+  "confidence_extraction": "low",
+  "abs_deviation": null,
+  "status": "oa_effect_not_found",
+  "extracted_utc": "2026-06-19T17:44:06.508292+00:00",
+  "note": "Meta-analytic source located but no focal correlation present in the abstract; requires full-text human extraction.",
+  "oa": true,
+  "oa_pdf_url": "https://link.springer.com/content/pdf/10.1007/s10551-022-05184-0.pdf"
+}

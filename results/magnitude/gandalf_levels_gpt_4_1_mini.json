@@ -1,0 +1,22 @@
+{
+  "model": "gpt-4.1-mini",
+  "n_personas": 150,
+  "baseline_levels": 1,
+  "baseline_per_level": {
+    "L1": false,
+    "L2": false,
+    "L3": false,
+    "L4": false,
+    "L6": false,
+    "L7": true
+  },
+  "tuned_levels": 1,
+  "tuned_per_level": {
+    "L1": false,
+    "L2": false,
+    "L3": false,
+    "L4": false,
+    "L6": false,
+    "L7": true
+  }
+}

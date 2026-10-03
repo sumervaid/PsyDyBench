@@ -1,0 +1,23 @@
+{
+  "indicator": "social_peer_interaction_count",
+  "state": "work_engagement_state",
+  "claimed_meta_r": 0.25,
+  "verified_meta_r": null,
+  "source_doi": "https://doi.org/10.1111/0023-8333.00136",
+  "source_title": "Effectiveness of L2 Instruction: A Research Synthesis and Quantitative Meta\u2010analysis",
+  "source_year": 2000,
+  "source_openalex_id": "https://openalex.org/W2006181802",
+  "citation_claimed": "Halbesleben (2010) JOB meta: coworker support",
+  "citation_matched": false,
+  "evidence_quote": "This study employed (and reports in detail) systematic procedures for research synthesis and meta\u2010analysis to summarize findings from experimental and quasi\u2010experimental investigations into the effectiveness of L2 instruction published between 1980 and 1998. Comparisons of average effect sizes from 49 unique sample stu",
+  "sample_n": null,
+  "n_studies_k": null,
+  "confidence_claimed": "medium",
+  "confidence_extraction": "low",
+  "abs_deviation": null,
+  "status": "oa_effect_not_found",
+  "extracted_utc": "2026-06-19T17:44:06.552924+00:00",
+  "note": "Meta-analytic source located but no focal correlation present in the abstract; requires full-text human extraction.",
+  "oa": true,
+  "oa_pdf_url": "http://intellectum.unisabana.edu.co/bitstreams/3028a1f5-f3b6-4ba6-856d-9d2e7793b116/download"
+}

@@ -1,0 +1,119 @@
+indicator,state,claimed_meta_r,citation,construct_match,confidence
+psychological_stress_level,work_engagement_state,-0.19,"Crawford, LePine & Rich (2010) JAP",Hindrance demands → Engagement,high
+psychological_autonomy_felt,work_engagement_state,0.39,"Christian, Garza & Slaughter (2011) Pers Psych",Autonomy → Engagement,high
+behavioral_task_variety,work_engagement_state,0.53,"Christian, Garza & Slaughter (2011) Pers Psych",Task variety → Engagement,high
+psychological_meaning_connection,work_engagement_state,0.51,"Christian, Garza & Slaughter (2011) Pers Psych",Task significance → Engagement,high
+social_support_received_count,work_engagement_state,0.32,"Christian, Garza & Slaughter (2011) Pers Psych",Social support → Engagement,medium
+psychological_competence_affirmation,work_engagement_state,0.48,Mazzetti et al. (2023) Psych Reports,Personal resources (self-efficacy) → Engagement,medium
+psychological_flow_hours,work_engagement_state,0.5,Conceptual: absorption subscale of UWES,Flow/absorption ≈ Engagement (absorption),low
+behavioral_deep_work_hours,work_engagement_state,0.28,"Christian, Garza & Slaughter (2011) Pers Psych",Problem solving → Engagement,medium
+behavioral_task_interruption_count,work_engagement_state,-0.19,"Crawford, LePine & Rich (2010) JAP",Hindrance demands → Engagement,medium
+psychological_affect_valence,work_engagement_state,0.62,Young et al. (2018) JOB,Positive affectivity → Engagement,medium
+psychological_rumination_level,work_engagement_state,-0.25,Querstret & Cropley (2012) JOHP (primary study),Affective rumination → Fatigue (proxy for disengagement),low
+social_conflict_instances,work_engagement_state,-0.19,"Crawford, LePine & Rich (2010) JAP",Role conflict (hindrance demand) → Engagement,medium
+social_manager_interaction_quality,work_engagement_state,0.27,"Christian, Garza & Slaughter (2011) Pers Psych",Transformational leadership → Engagement,medium
+life_work_sleep_quality,work_engagement_state,0.25,Litwiller et al. (2017) JAP (estimated),Sleep quality → Work engagement,low
+physical_avg_energy_level,work_engagement_state,0.5,Conceptual: vigor subscale of UWES,Vigor/energy ≈ Engagement (vigor),low
+life_work_morning_mood,work_engagement_state,0.62,Young et al. (2018) JOB,Positive affectivity → Engagement,low
+behavioral_meeting_hours,work_engagement_state,-0.18,Rogelberg et al. (2006) JAP,Meeting load → Engagement (hindrance),medium
+behavioral_overtime_indication,work_engagement_state,-0.15,"Wong, Chan & Ngan (2019) IJERPH meta-analysis",Overtime → Engagement (depletion),medium
+behavioral_break_minutes,work_engagement_state,0.17,Albulescu et al. (2022) PLOS ONE meta d=0.36→r,Breaks → Engagement (recovery),high
+behavioral_reactive_work_ratio,work_engagement_state,-0.2,LePine et al. (2005) AMJ hindrance stressor meta,Reactive/hindrance work → Engagement,low
+life_work_family_demands,work_engagement_state,-0.25,Amstad et al. (2011) JOHP meta k=427,Family-work conflict → Engagement,high
+life_work_personal_stress_level,work_engagement_state,-0.22,Nohe et al. (2015) JAP panel meta,Personal stress → Engagement (spillover),low
+life_work_exercise_today,work_engagement_state,0.2,Conn et al. (2009) AJPM meta,Exercise → Engagement (vitality),medium
+life_work_sleep_hours,work_engagement_state,0.15,Henderson & Horan (2021) JOB meta,Sleep duration → Engagement,high
+digital_notification_overwhelm,work_engagement_state,-0.22,Sarabadani et al. (2023) EJIS technostress meta,Notification overload → Engagement,medium
+digital_screen_fatigue,work_engagement_state,-0.2,Sarabadani et al. (2023) techno-strain,Screen fatigue → Engagement,low
+digital_email_volume,work_engagement_state,-0.18,Schmitt et al. (2021) info overload meta,Email overload → Engagement,low
+physical_commute_stress,work_engagement_state,-0.15,Murphy et al. (2023) Org Psych Rev meta,Commute stress → Engagement,high
+psychological_affect_arousal,work_engagement_state,0.35,Young et al. (2018) JOB / circumplex model,Activated affect → Engagement,low
+psychological_anticipatory_dread,work_engagement_state,-0.25,"Crawford, LePine & Rich (2010) JAP (hindrance appraisal)",Anticipatory dread → Disengagement,medium
+psychological_anticipatory_excitement,work_engagement_state,0.35,"Crawford, LePine & Rich (2010) JAP (challenge appraisal)",Challenge anticipation → Engagement,low
+social_isolation_hours,work_engagement_state,-0.2,Halbesleben (2010) JOB meta: social resources,Social isolation → Engagement (inverse resource),low
+social_peer_interaction_count,work_engagement_state,0.25,Halbesleben (2010) JOB meta: coworker support,Peer interaction → Engagement,medium
+social_social_energy_drain,work_engagement_state,-0.22,Bakker & Demerouti (2017) JOB: emotional demands,Social energy drain → Engagement (depletion),low
+physical_energy_trajectory,work_engagement_state,0.3,Sonnentag (2003) JAP: recovery → engagement,Rising energy → Engagement (vigor),low
+social_support_given_count,work_engagement_state,0.15,Halbesleben (2010) JOB: prosocial behavior ↔ engagement,Giving support → Engagement (reciprocal resource),low
+behavioral_task_completion_count,work_engagement_state,0.22,Bakker & Bal (2010) JOHP: daily task resources,Task accomplishment → Engagement,low
+life_work_financial_worry,work_engagement_state,-0.15,Schieman & Young (2011) J Health Soc Behavior,Financial stress → Engagement (distraction),low
+psychological_autonomy_felt,psych_safety_state,0.47,Frazier et al. (2017) Pers Psych,Autonomy → Psychological safety,high
+social_support_received_count,psych_safety_state,0.49,Frazier et al. (2017) Pers Psych,Supportive work context → Psychological safety,high
+social_manager_interaction_quality,psych_safety_state,0.42,Frazier et al. (2017) Pers Psych,Transformational leadership → Psychological safety,high
+social_conflict_instances,psych_safety_state,-0.3,Frazier et al. (2017) Pers Psych (inferred from role clarity .63),Interpersonal conflict → Psychological safety (inverse),low
+psychological_stress_level,psych_safety_state,-0.25,Inferred from Frazier et al. (2017) supportive context (.49),Stress → Psychological safety (inverse),low
+social_isolation_hours,psych_safety_state,-0.3,Inferred: social isolation ≈ inverse of supportive context,Social isolation → Psychological safety (inverse),low
+psychological_affect_valence,psych_safety_state,0.35,Frazier et al. (2017): satisfaction ↔ psych safety ρ=.53,Positive affect → Psychological safety (proxy via satisfaction),low
+psychological_competence_affirmation,psych_safety_state,0.4,"Frazier et al. (2017): supportive context (.49), autonomy (.47)",Competence → Psychological safety (personal resource),low
+life_work_sleep_quality,psych_safety_state,0.15,"Litwiller et al. (2017) JAP (estimated, indirect path)",Sleep quality → General well-being → Psych safety,low
+psychological_meaning_connection,psych_safety_state,0.35,"Frazier et al. (2017): learning behavior (.62), commitment (.48)",Meaning/purpose → Psychological safety (via commitment path),low
+social_peer_interaction_count,psych_safety_state,0.3,Frazier et al. (2017): supportive work context (.49),Peer interaction → Psychological safety (social resource),medium
+psychological_rumination_level,psych_safety_state,-0.2,Querstret & Cropley (2012) + Frazier et al. (2017) inferred,Rumination → Psychological safety (negative affect path),low
+social_social_energy_drain,psych_safety_state,-0.31,Profit et al. (2024) Health Affairs Scholar,Social energy drain → Psychological safety,medium
+life_work_family_demands,psych_safety_state,-0.16,Bilal et al. (2020) Front Psych,Family demands → Psychological safety,low
+digital_notification_overwhelm,psych_safety_state,-0.15,Sarabadani et al. (2023) chained path,Notification overload → Psychological safety,low
+behavioral_meeting_hours,psych_safety_state,0.12,Allen & Rogelberg (2013) Group & Org Mgmt,Meeting interaction → Psychological safety,low
+life_work_exercise_today,psych_safety_state,0.1,Conn et al. (2009) indirect via well-being,Exercise → Psychological safety (well-being path),low
+psychological_affect_arousal,psych_safety_state,0.15,Frazier et al. (2017) indirect: engagement → safety,Activated positive affect → Psychological safety,low
+life_work_personal_stress_level,psych_safety_state,-0.2,Nohe et al. (2015) JAP: personal stress spillover,Personal stress → Psychological safety (spillover),low
+psychological_anticipatory_dread,psych_safety_state,-0.3,Edmondson (1999) ASQ: fear/anxiety inverse of psych safety,Dread/anxiety → Psychological safety (inverse),medium
+psychological_anticipatory_excitement,psych_safety_state,0.2,Edmondson & Lei (2014) Annu Rev Org Psych: positive anticipation,Positive anticipation → Psychological safety,low
+life_work_morning_mood,psych_safety_state,0.25,Beal et al. (2005) AMR: affective events → workplace behavior,Morning mood → Psychological safety (affect priming),low
+physical_avg_energy_level,psych_safety_state,0.15,Resource theory: energy → interpersonal risk capacity,Energy → Psychological safety (resource),low
+life_work_sleep_hours,psych_safety_state,0.12,Barnes et al. (2015) AMJ: sleep → interpersonal functioning,Sleep hours → Psychological safety,low
+social_support_given_count,psych_safety_state,0.25,Frazier et al. (2017): reciprocal support → safety climate,Giving support → Psychological safety (reciprocity),low
+social_total_interaction_count,psych_safety_state,0.2,Frazier et al. (2017): supportive work context (.49),Social interaction volume → Psychological safety,low
+behavioral_task_variety,psych_safety_state,0.15,Spreitzer (1995) AMJ: job enrichment → empowerment → safety,Task variety → Psychological safety (empowerment path),low
+life_work_financial_worry,psych_safety_state,-0.12,Probst (2005) JOHP: financial insecurity → reduced safety climate,Financial worry → Psychological safety (threat),low
+psychological_autonomy_felt,work_creativity_state,0.32,Liu et al. (2016) JOB meta-analysis,Autonomy → Creativity,high
+psychological_affect_valence,work_creativity_state,0.15,"Baas, De Dreu & Nijstad (2008) Psych Bull meta",Positive affect → Creativity,high
+psychological_meaning_connection,work_creativity_state,0.36,Hammond et al. (2011) JAP meta,Intrinsic motivation/meaning → Creativity,high
+social_support_received_count,work_creativity_state,0.21,Hammond et al. (2011) JAP meta,Social support → Creativity,high
+social_manager_interaction_quality,work_creativity_state,0.21,Hammond et al. (2011) JAP meta,Transformational leadership → Creativity,medium
+behavioral_task_variety,work_creativity_state,0.17,Hammond et al. (2011) JAP meta (job complexity),Task complexity/variety → Creativity,medium
+psychological_stress_level,work_creativity_state,-0.1,"Byron, Khazanchi & Nazarian (2010) JAP meta",Hindrance stress → Creativity,high
+social_conflict_instances,work_creativity_state,-0.12,De Dreu & Weingart (2003) JAP meta,Relationship conflict → Creativity/performance,medium
+psychological_competence_affirmation,work_creativity_state,0.3,Tierney & Farmer (2002) AMJ + Liu et al. (2016),Creative self-efficacy → Creativity,medium
+psychological_flow_hours,work_creativity_state,0.4,Csikszentmihalyi (1996) conceptual; Cseh et al. (2015),Flow state → Creative output,low
+behavioral_deep_work_hours,work_creativity_state,0.25,Hammond et al. (2011) JAP meta (cognitive engagement),Concentrated cognitive work → Creativity,low
+physical_avg_energy_level,work_creativity_state,0.25,Binnewies & Woernlein (2011) JOHP; resource theory,Energy/vitality → Creativity,low
+psychological_rumination_level,work_creativity_state,-0.15,Cropley & Cropley (2016); cognitive depletion path,Rumination → Creativity (depletion),low
+psychological_affect_arousal,work_creativity_state,0.2,"Baas, De Dreu & Nijstad (2008) Psych Bull meta",Activating affect → Creativity,medium
+life_work_sleep_quality,work_creativity_state,0.15,Killgore (2010) Progress in Brain Research,Sleep quality → Divergent thinking,low
+behavioral_task_interruption_count,work_creativity_state,-0.15,"Madjar, Oldham & Pratt (2002) AMJ; hindrance path",Interruptions → Creativity (disrupted flow),low
+social_isolation_hours,work_creativity_state,-0.15,Perry-Smith (2006) AMJ: social networks → creativity,Social isolation → Creativity (reduced stimulation),low
+social_peer_interaction_count,work_creativity_state,0.18,Perry-Smith & Shalley (2003) AMR: social interaction → ideas,Peer interaction → Creativity (idea cross-pollination),medium
+social_social_energy_drain,work_creativity_state,-0.18,Amabile et al. (2005) ASQ: emotional exhaustion → creativity,Social drain → Creativity (depletion),low
+life_work_morning_mood,work_creativity_state,0.2,Amabile et al. (2005) ASQ: daily affect → creativity,Morning mood → Creativity (affective priming),medium
+life_work_exercise_today,work_creativity_state,0.15,Oppezzo & Schwartz (2014) JEP:LMC: exercise → divergent thinking,Exercise → Creativity (cognitive flexibility),low
+life_work_personal_stress_level,work_creativity_state,-0.15,"Byron, Khazanchi & Nazarian (2010) JAP: uncontrollable stress",Personal stress → Creativity (threat rigidity),low
+psychological_anticipatory_excitement,work_creativity_state,0.25,"Baas, De Dreu & Nijstad (2008) Psych Bull: activating positive mood",Positive anticipation → Creativity,low
+psychological_anticipatory_dread,work_creativity_state,-0.2,"Byron, Khazanchi & Nazarian (2010) JAP: anxiety → creativity",Dread/anxiety → Creativity (threat rigidity),medium
+behavioral_break_minutes,work_creativity_state,0.15,Sio & Ormerod (2009) Psych Bull meta: incubation effect,Breaks → Creativity (incubation),medium
+life_work_sleep_hours,work_creativity_state,0.12,Killgore (2010) Progress in Brain Research: sleep → flexibility,Sleep hours → Creativity (cognitive resource),low
+digital_notification_overwhelm,work_creativity_state,-0.18,"Mark, Gudith & Klocke (2008) CHI: interruptions → creative flow",Notification overload → Creativity (flow disruption),low
+social_manager_interaction_quality,team_trust_state,0.46,Dirks & Ferrin (2002) JAP meta,Transformational leadership → Trust,high
+social_support_received_count,team_trust_state,0.4,Dirks & Ferrin (2002) JAP meta,Perceived org support → Trust,high
+psychological_autonomy_felt,team_trust_state,0.3,Dirks & Ferrin (2002) JAP meta (participative decision making),Autonomy/voice → Trust,medium
+social_conflict_instances,team_trust_state,-0.33,De Jong & Elfring (2010) AMJ; Dirks & Ferrin (2002),Interpersonal conflict → Trust,medium
+psychological_competence_affirmation,team_trust_state,0.35,"Colquitt, Scott & LePine (2007) JAP meta (ability trust)",Competence → Trust (ability-based),high
+psychological_affect_valence,team_trust_state,0.3,"Colquitt, Scott & LePine (2007) JAP meta",Positive affect → Trust propensity,low
+social_peer_interaction_count,team_trust_state,0.35,Dirks & Ferrin (2002) JAP meta (interaction frequency),Peer interaction → Trust (familiarity),medium
+social_isolation_hours,team_trust_state,-0.3,Inferred: isolation ≈ inverse of interaction/familiarity,Social isolation → Trust (inverse),low
+psychological_stress_level,team_trust_state,-0.2,"Colquitt, Scott & LePine (2007) JAP meta (trust → stress path)",Stress → Trust erosion,low
+psychological_meaning_connection,team_trust_state,0.25,Dirks & Ferrin (2002): commitment ↔ trust ρ=.49,Meaning → Trust (via commitment),low
+social_social_energy_drain,team_trust_state,-0.28,Inferred from Dirks & Ferrin (2002) interpersonal risk path,Social drain → Trust erosion,low
+psychological_rumination_level,team_trust_state,-0.18,Colquitt et al. (2007); negative cognition path,Rumination → Trust (negative appraisal),low
+life_work_sleep_quality,team_trust_state,0.12,Barnes et al. (2015) AMJ; sleep → interpersonal functioning,Sleep quality → Trust (interpersonal capacity),low
+psychological_affect_arousal,team_trust_state,0.15,Jones & George (1998) AMR: emotional state → trust formation,Activated affect → Trust (engagement path),low
+social_support_given_count,team_trust_state,0.3,Dirks & Ferrin (2002) JAP: benevolence behaviors → trust,Giving support → Trust (benevolence signal),medium
+life_work_morning_mood,team_trust_state,0.18,Mislin et al. (2015) OBH meta: affect → trust decisions,Morning mood → Trust (affective priming),low
+psychological_anticipatory_dread,team_trust_state,-0.22,Dunn & Schweitzer (2005) AMJ: anxiety → reduced trust,Dread/anxiety → Trust (threat appraisal),medium
+social_total_interaction_count,team_trust_state,0.28,Dirks & Ferrin (2002) JAP: familiarity/interaction → trust,Interaction volume → Trust (familiarity),medium
+life_work_family_demands,team_trust_state,-0.12,Spillover theory: family demands → reduced relational investment,Family demands → Trust (reduced social capacity),low
+life_work_personal_stress_level,team_trust_state,-0.18,"Colquitt, Scott & LePine (2007) JAP: stress → trust propensity",Personal stress → Trust (reduced propensity),low
+physical_avg_energy_level,team_trust_state,0.15,Resource theory: energy → interpersonal engagement capacity,Energy → Trust (relational resource),low
+psychological_anticipatory_excitement,team_trust_state,0.18,Dunn & Schweitzer (2005) AMJ: positive emotions → trust,Positive anticipation → Trust,low
+life_work_sleep_hours,team_trust_state,0.1,Barnes et al. (2015) AMJ: sleep → interpersonal functioning,Sleep hours → Trust,low
+psychological_flow_hours,team_trust_state,0.15,Salanova et al. (2006) JOHP: flow → collective efficacy → trust,Flow → Trust (shared positive experience),low
+social_manager_interaction_minutes,team_trust_state,0.3,Dirks & Ferrin (2002) JAP: leader interaction frequency → trust,Manager time → Trust (relationship investment),medium

@@ -1,0 +1,22 @@
+{
+  "indicator": "physical_avg_energy_level",
+  "state": "work_engagement_state",
+  "claimed_meta_r": 0.5,
+  "verified_meta_r": null,
+  "source_doi": "https://doi.org/10.1037/a0019364",
+  "source_title": "Linking job demands and resources to employee engagement and burnout: A theoretical extension and meta-analytic test.",
+  "source_year": 2010,
+  "source_openalex_id": "https://openalex.org/W2094182805",
+  "citation_claimed": "Conceptual: vigor subscale of UWES",
+  "citation_matched": false,
+  "evidence_quote": "We refine and extend the job demands-resources model with theory regarding appraisal of stressors to account for inconsistencies in relationships between demands and engagement, and we test the revised theory using meta-analytic structural modeling. Results indicate support for the refined and updated theory. First, de",
+  "sample_n": null,
+  "n_studies_k": null,
+  "confidence_claimed": "low",
+  "confidence_extraction": "low",
+  "abs_deviation": null,
+  "status": "source_found_effect_in_pdf",
+  "extracted_utc": "2026-06-19T17:44:06.512029+00:00",
+  "note": "Meta-analytic source located but no focal correlation present in the abstract; requires full-text human extraction.",
+  "oa": false
+}

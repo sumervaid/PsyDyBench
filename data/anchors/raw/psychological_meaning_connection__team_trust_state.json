@@ -1,0 +1,75 @@
+{
+  "indicator": "psychological_meaning_connection",
+  "state": "team_trust_state",
+  "claimed_meta_r": "0.25",
+  "citation": "Dirks & Ferrin (2002): commitment \u2194 trust \u03c1=.49",
+  "construct_match": "Meaning \u2192 Trust (via commitment)",
+  "confidence": "low",
+  "queries": [
+    "Meaning Trust via commitment trust in team meta-analysis",
+    "Dirks 2002 trust in team meta-analysis",
+    "title.search:Meaning trust meta-analytic year:2002",
+    "title.search:trust meta-analytic year:2002",
+    "title.search:Meaning trust year:2002"
+  ],
+  "retrieved_utc": "2026-06-19T17:45:04.696052+00:00",
+  "n_candidates": 4,
+  "candidates": [
+    {
+      "openalex_id": "https://openalex.org/W2102135819",
+      "title": "The meanings of culture in health and social care: a case study of the combined Trust in Somerset",
+      "abstract": "On the 1st of April 1999 Somerset Health Authority and Somerset County Council established a Joint Commissioning Board (JCB) to commission mental health services. Simultaneously, the Somerset Partnerships Health and Social Care NHS Trust was set-up as a combined health and social care services provider; for the first time in England, the majority of social services mental health staff transferred their employment to this Trust. The JCB commissioned an evaluation of the impact of these innovations on users and carers, staff and senior officers and members in the organisations concerned. In the course of the research, one concept frequently recurred as a source of both optimism and concern: 'culture'. However, the meanings attributed to this term varied significantly between stakeholders. After summarising the methodology and the results to date of the evaluation, this paper briefly reviews the conceptions of culture in the literature on organisations, and introduces a taxonomy for discussing culture. That taxonomy is then deployed to explore the ways in which the notion of 'culture' is being applied to and within the combined Trust in Somerset, and the implications of those applications for local practice and national policy around partnership.",
+      "doi": "https://doi.org/10.1080/13561820120080454",
+      "year": 2001,
+      "type": "review",
+      "oa_status": "closed",
+      "cited_by_count": 63,
+      "authorships_first": "David Towell Edward Peck",
+      "source": "Journal of Interprofessional Care",
+      "relevance_score": 129.40744,
+      "matched_query": "title.search:Meaning trust (year=2002)"
+    },
+    {
+      "openalex_id": "https://openalex.org/W2418312604",
+      "title": "The meaning of trust in healthcare.",
+      "abstract": "",
+      "doi": null,
+      "year": 2001,
+      "type": "article",
+      "oa_status": "closed",
+      "cited_by_count": 0,
+      "authorships_first": "Gallagher Sm",
+      "source": "PubMed",
+      "relevance_score": 10.3968935,
+      "matched_query": "title.search:Meaning trust (year=2002)"
+    },
+    {
+      "openalex_id": "https://openalex.org/W2228529806",
+      "title": "Towards semantic web: adding meaning and trust to the web by XML. Presentation given at TUCS. Turku 28.11.2002",
+      "abstract": "",
+      "doi": null,
+      "year": 2002,
+      "type": "article",
+      "oa_status": "green",
+      "cited_by_count": 0,
+      "authorships_first": "Salminen, Airi",
+      "source": "Jyv\u00e4skyl\u00e4 University Digital Archive (University of Jyv\u00e4skyl\u00e4)",
+      "relevance_score": 6.4487205,
+      "matched_query": "title.search:Meaning trust (year=2002)"
+    },
+    {
+      "openalex_id": "https://openalex.org/W2024522045",
+      "title": "USA Patriot Act: New Guidance on Meaning and Implementation of Shell Bank and Certain Record Keeping Provisions1: International Trust Companies Included",
+      "abstract": "Journal Article USA Patriot Act: New Guidance on Meaning and Implementation of Shell Bank and Certain Record Keeping Provisions1: International Trust Companies Included Get access F. Ronald Jenkins, Esq F. Ronald Jenkins, Esq Ten State Street, LLP International Trust House180 East Bay Street Charleston, SC 29401 United States of America Tel: +1 843 937 0110 Fax: +1 843 937 4310 E-mail: frjenkins@tenstate.com Search for other works by this author on: Oxford Academic Google Scholar Trusts & Trustees, Volume 8, Issue 3, February 2002, Pages 13\u201316, https://doi.org/10.1093/tandt/8.3.13 Published: 01 February 2002",
+      "doi": "https://doi.org/10.1093/tandt/8.3.13",
+      "year": 2002,
+      "type": "article",
+      "oa_status": "closed",
+      "cited_by_count": 0,
+      "authorships_first": "Floyd Jenkins",
+      "source": "Trusts & Trustees",
+      "relevance_score": 5.541183,
+      "matched_query": "title.search:Meaning trust (year=2002)"
+    }
+  ]
+}

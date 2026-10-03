@@ -1,0 +1,23 @@
+{
+  "indicator": "life_work_exercise_today",
+  "state": "psych_safety_state",
+  "claimed_meta_r": 0.1,
+  "verified_meta_r": null,
+  "source_doi": "https://doi.org/10.3389/fpsyt.2017.00248",
+  "source_title": "Economic and Health Predictors of National Postpartum Depression Prevalence: A Systematic Review, Meta-analysis, and Meta-Regression of 291 Studies from 56 Countries",
+  "source_year": 2018,
+  "source_openalex_id": "https://openalex.org/W2794431233",
+  "citation_claimed": "Conn et al. (2009) indirect via well-being",
+  "citation_matched": false,
+  "evidence_quote": "Background: Postpartum depression (PPD) poses a major global public health challenge. PPD is the most common complication associated with childbirth and exerts harmful effects on children. Although hundreds of PPD studies have been published, we lack accurate global or national PPD prevalence estimates, and have no cle",
+  "sample_n": null,
+  "n_studies_k": 308,
+  "confidence_claimed": "low",
+  "confidence_extraction": "low",
+  "abs_deviation": null,
+  "status": "oa_effect_not_found",
+  "extracted_utc": "2026-06-19T17:44:06.494718+00:00",
+  "note": "Meta-analytic source located but no focal correlation present in the abstract; requires full-text human extraction.",
+  "oa": true,
+  "oa_pdf_url": "https://www.frontiersin.org/articles/10.3389/fpsyt.2017.00248/pdf"
+}

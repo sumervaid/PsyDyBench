@@ -1,0 +1,22 @@
+{
+  "indicator": "social_isolation_hours",
+  "state": "work_creativity_state",
+  "claimed_meta_r": -0.15,
+  "verified_meta_r": null,
+  "source_doi": "https://doi.org/10.1037/e518532013-292",
+  "source_title": "A meta-analytic examination of employee creativity",
+  "source_year": 2007,
+  "source_openalex_id": "https://openalex.org/W2901064400",
+  "citation_claimed": "Perry-Smith (2006) AMJ: social networks \u2192 creativity",
+  "citation_matched": false,
+  "evidence_quote": "",
+  "sample_n": null,
+  "n_studies_k": null,
+  "confidence_claimed": "low",
+  "confidence_extraction": "low",
+  "abs_deviation": null,
+  "status": "source_found_effect_in_pdf",
+  "extracted_utc": "2026-06-19T17:44:06.546995+00:00",
+  "note": "Meta-analytic source located but no focal correlation present in the abstract; requires full-text human extraction.",
+  "oa": false
+}

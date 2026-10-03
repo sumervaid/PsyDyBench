@@ -1,0 +1,48 @@
+{
+  "indicator": "life_work_sleep_quality",
+  "state": "team_trust_state",
+  "claimed_meta_r": "0.12",
+  "citation": "Barnes et al. (2015) AMJ; sleep \u2192 interpersonal functioning",
+  "construct_match": "Sleep quality \u2192 Trust (interpersonal capacity)",
+  "confidence": "low",
+  "queries": [
+    "Sleep quality Trust interpersonal capacity trust in team meta-analysis",
+    "Barnes 2015 trust in team meta-analysis",
+    "title.search:Sleep quality trust meta-analytic year:2015",
+    "title.search:quality trust meta-analytic year:2015",
+    "title.search:Sleep quality trust year:2015",
+    "title.search:trust meta-analytic year:2015"
+  ],
+  "retrieved_utc": "2026-06-19T17:45:13.713237+00:00",
+  "n_candidates": 2,
+  "candidates": [
+    {
+      "openalex_id": "https://openalex.org/W2294360839",
+      "title": "From E-Shopping System Quality to the Consumer's Intention to Return: A Meta-Analytic Study of the Mediation of Attitude, Usefulness, Enjoyment, and Trust",
+      "abstract": "This research aims at clarifying the respective role of e-shopping system quality and attitude, usefulness, enjoyment, and trust to explain the consumer's intention to return to an online merchant. A meta-analytical regression based on 83 published studies is used to integrate, in one single model, concepts from two streams of information system (IS) research which are the technology acceptance model (TAM) and the IS success model. Results demonstrate that the sequence, consisting of e-shopping system quality (system quality, information quality, and customer service quality) -- behavioral beliefs and attitude -- intention to return, is theoretically and empirically founded and that customer service quality is the quality dimension that influences trust and enjoyment the most while information quality is the quality dimension that is the most influential on usefulness.",
+      "doi": "https://doi.org/10.1109/hicss.2016.445",
+      "year": 2016,
+      "type": "article",
+      "oa_status": "closed",
+      "cited_by_count": 11,
+      "authorships_first": "John Ingham",
+      "source": null,
+      "relevance_score": 66.53521,
+      "matched_query": "title.search:trust meta-analytic (year=2015)"
+    },
+    {
+      "openalex_id": "https://openalex.org/W2660256791",
+      "title": "Trust in the workplace: A multifoci meta-analytic investigation",
+      "abstract": "Employees differentiate among multiple social exchange partners in the workplace - organization as a whole, immediate supervisors, and their coworkers. Moreover, in spite of the important role of team in today\u2019s work environment, most researchers have explored the effects of trust in organization and trust in supervisor. To address this issue of trust research, we performed meta-analysis of the relationships between three different types of trust (trust in organization, supervisor, and coworkers) and their individual-level outcomes based on 547 samples from 223 studies. In general, our meta-analytic results was consistent with multifoci perspective. For instance, trust in organization is more strongly related to attitudinal outcomes, such as organizational commitment, job satisfaction, and intention to leave. For behavioral outcomes, trust in coworkers and trust in supervisor have strong relations with task performance. Trust in organization is more strongly related to OCB-O and trust in coworkers is more strongly related to OCB-I. More importantly, our findings revealed that trust in coworkers provides an additional contribution in predicting behavioral and attitudinal outcomes above and beyond trust in organization and trust in supervisor. Therefore, based upon social exchange theory and multifoci perspective, our study shed light on the differential importance of trust targeting different foci.",
+      "doi": "https://doi.org/10.5465/ambpp.2016.16770abstract",
+      "year": 2016,
+      "type": "article",
+      "oa_status": "closed",
+      "cited_by_count": 2,
+      "authorships_first": "Jae Young Choi",
+      "source": "Academy of Management Proceedings",
+      "relevance_score": 56.844692,
+      "matched_query": "title.search:trust meta-analytic (year=2015)"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "indicator": "psychological_affect_valence",
+  "state": "work_creativity_state",
+  "claimed_meta_r": 0.15,
+  "verified_meta_r": 0.15,
+  "source_doi": "https://doi.org/10.1016/j.rpto.2015.06.002",
+  "source_title": "Personal factors of creativity: A second order meta-analysis",
+  "source_year": 2015,
+  "source_openalex_id": "https://openalex.org/W1859649255",
+  "citation_claimed": "Baas, De Dreu & Nijstad (2008) Psych Bull meta",
+  "citation_matched": false,
+  "evidence_quote": "Two meta-analyses found that positive affect is associated with creativity (\u00afr = .19) (Baas et al., 2008, r = .15; Davis, 2009, r = .25).",
+  "sample_n": null,
+  "n_studies_k": null,
+  "confidence_claimed": "high",
+  "confidence_extraction": "full_text",
+  "abs_deviation": 0.16,
+  "status": "verified",
+  "extracted_utc": "2026-06-19T17:44:06.518110+00:00",
+  "note": "",
+  "oa": true,
+  "oa_pdf_url": "https://journals.copmadrid.org/jwop/files/tr2015v31n3a5.pdf"
+}

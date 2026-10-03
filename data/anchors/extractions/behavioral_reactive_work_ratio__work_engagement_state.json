@@ -1,0 +1,19 @@
+{
+  "indicator": "behavioral_reactive_work_ratio",
+  "state": "work_engagement_state",
+  "claimed_meta_r": -0.2,
+  "verified_meta_r": null,
+  "source_doi": null,
+  "source_title": null,
+  "source_year": null,
+  "citation_claimed": "LePine et al. (2005) AMJ hindrance stressor meta",
+  "citation_matched": false,
+  "evidence_quote": "",
+  "sample_n": null,
+  "n_studies_k": null,
+  "confidence_claimed": "low",
+  "confidence_extraction": "none",
+  "status": "unfound",
+  "extracted_utc": "2026-06-19T17:44:06.486667+00:00",
+  "note": "No meta-analytic candidate surfaced via OpenAlex for this pair."
+}

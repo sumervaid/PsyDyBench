@@ -1,0 +1,23 @@
+{
+  "indicator": "social_isolation_hours",
+  "state": "team_trust_state",
+  "claimed_meta_r": -0.3,
+  "verified_meta_r": null,
+  "source_doi": "https://doi.org/10.1111/brv.12721",
+  "source_title": "Preferred reporting items for systematic reviews and meta\u2010analyses in ecology and evolutionary biology: a <scp>PRISMA</scp> extension",
+  "source_year": 2021,
+  "source_openalex_id": "https://openalex.org/W3158015415",
+  "citation_claimed": "Inferred: isolation \u2248 inverse of interaction/familiarity",
+  "citation_matched": false,
+  "evidence_quote": "Since the early 1990s, ecologists and evolutionary biologists have aggregated primary research using meta-analytic methods to understand ecological and evolutionary phenomena. Meta-analyses can resolve long-standing disputes, dispel spurious claims, and generate new research questions. At their worst, however, meta-ana",
+  "sample_n": null,
+  "n_studies_k": null,
+  "confidence_claimed": "low",
+  "confidence_extraction": "low",
+  "abs_deviation": null,
+  "status": "oa_pdf_unreadable",
+  "extracted_utc": "2026-06-19T17:44:06.546729+00:00",
+  "note": "Meta-analytic source located but no focal correlation present in the abstract; requires full-text human extraction.",
+  "oa": true,
+  "oa_pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/brv.12721"
+}

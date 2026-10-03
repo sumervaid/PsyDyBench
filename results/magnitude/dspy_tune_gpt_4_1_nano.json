@@ -1,0 +1,8 @@
+{
+  "model": "gpt-4.1-nano",
+  "auto": "medium",
+  "n_train": 30,
+  "n_test": 30,
+  "baseline": 0.6596248301960399,
+  "tuned": 0.6726710169743533
+}

@@ -1,0 +1,23 @@
+{
+  "indicator": "psychological_anticipatory_dread",
+  "state": "psych_safety_state",
+  "claimed_meta_r": -0.3,
+  "verified_meta_r": null,
+  "source_doi": "https://doi.org/10.1177/0022167814542048",
+  "source_title": "Systematic Review of Existential Anxiety Instruments",
+  "source_year": 2014,
+  "source_openalex_id": "https://openalex.org/W2036588658",
+  "citation_claimed": "Edmondson (1999) ASQ: fear/anxiety inverse of psych safety",
+  "citation_matched": false,
+  "evidence_quote": "Existential anxiety (EA) is an expression of being occupied with ultimate concerns such as death, meaninglessness, and fundamental loneliness. Philosophers and psychologists have claimed its importance for the study of human thinking, emotion, decision making, and psychopathology. Until now research has mainly focused",
+  "sample_n": null,
+  "n_studies_k": null,
+  "confidence_claimed": "medium",
+  "confidence_extraction": "low",
+  "abs_deviation": null,
+  "status": "oa_effect_not_found",
+  "extracted_utc": "2026-06-19T17:44:06.519349+00:00",
+  "note": "Meta-analytic source located but no focal correlation present in the abstract; requires full-text human extraction.",
+  "oa": true,
+  "oa_pdf_url": "https://research.utwente.nl/en/publications/5bfee938-52d6-4609-9448-b90614e62500"
+}

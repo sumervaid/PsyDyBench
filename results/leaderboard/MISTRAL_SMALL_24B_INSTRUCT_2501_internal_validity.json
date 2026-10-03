@@ -1,0 +1,253 @@
+{
+  "levels_passed": 1,
+  "total_levels": 6,
+  "overall_score": 0.133,
+  "n_obs": 1,
+  "n_employees": 1,
+  "levels": [
+    {
+      "level": 1,
+      "name": "Distributions",
+      "passed": false,
+      "score": 0.0,
+      "metrics": {
+        "work_engagement": {
+          "synth_mean": 3.0,
+          "target_mean": 4.8,
+          "mean_diff": 1.8,
+          "mean_ok": false,
+          "synth_sd": NaN,
+          "target_sd": 1.1,
+          "sd_ratio": NaN,
+          "sd_ok": false
+        },
+        "psych_safety": {
+          "synth_mean": 3.0,
+          "target_mean": 2.9,
+          "mean_diff": 0.1,
+          "mean_ok": true,
+          "synth_sd": NaN,
+          "target_sd": 0.55,
+          "sd_ratio": NaN,
+          "sd_ok": false
+        },
+        "work_creativity": {
+          "synth_mean": 3.0,
+          "target_mean": 3.6,
+          "mean_diff": 0.6,
+          "mean_ok": false,
+          "synth_sd": NaN,
+          "target_sd": 0.85,
+          "sd_ratio": NaN,
+          "sd_ok": false
+        },
+        "team_trust": {
+          "synth_mean": 3.0,
+          "target_mean": 3.7,
+          "mean_diff": 0.7,
+          "mean_ok": false,
+          "synth_sd": NaN,
+          "target_sd": 0.7,
+          "sd_ratio": NaN,
+          "sd_ok": false
+        }
+      },
+      "recommendations": []
+    },
+    {
+      "level": 2,
+      "name": "ICC (Variance Ratios)",
+      "passed": false,
+      "score": 0.0,
+      "metrics": {
+        "work_engagement": {
+          "error": "not enough employees with >=2 days"
+        },
+        "psych_safety": {
+          "error": "not enough employees with >=2 days"
+        },
+        "work_creativity": {
+          "error": "not enough employees with >=2 days"
+        },
+        "team_trust": {
+          "error": "not enough employees with >=2 days"
+        }
+      },
+      "recommendations": []
+    },
+    {
+      "level": 3,
+      "name": "State Correlations",
+      "passed": false,
+      "score": 0.0,
+      "metrics": {
+        "between_person": {
+          "work_engagement_x_psych_safety": {
+            "synth_r": NaN,
+            "target_r": 0.4,
+            "diff": NaN,
+            "ok": false
+          },
+          "work_engagement_x_work_creativity": {
+            "synth_r": NaN,
+            "target_r": 0.4,
+            "diff": NaN,
+            "ok": false
+          },
+          "work_engagement_x_team_trust": {
+            "synth_r": NaN,
+            "target_r": 0.4,
+            "diff": NaN,
+            "ok": false
+          },
+          "psych_safety_x_work_creativity": {
+            "synth_r": NaN,
+            "target_r": 0.4,
+            "diff": NaN,
+            "ok": false
+          },
+          "psych_safety_x_team_trust": {
+            "synth_r": NaN,
+            "target_r": 0.4,
+            "diff": NaN,
+            "ok": false
+          },
+          "work_creativity_x_team_trust": {
+            "synth_r": NaN,
+            "target_r": 0.4,
+            "diff": NaN,
+            "ok": false
+          }
+        },
+        "within_person": {
+          "work_engagement_x_psych_safety": {
+            "synth_r": NaN,
+            "target_r": 0.25,
+            "diff": NaN,
+            "ok": false
+          },
+          "work_engagement_x_work_creativity": {
+            "synth_r": NaN,
+            "target_r": 0.25,
+            "diff": NaN,
+            "ok": false
+          },
+          "work_engagement_x_team_trust": {
+            "synth_r": NaN,
+            "target_r": 0.25,
+            "diff": NaN,
+            "ok": false
+          },
+          "psych_safety_x_work_creativity": {
+            "synth_r": NaN,
+            "target_r": 0.25,
+            "diff": NaN,
+            "ok": false
+          },
+          "psych_safety_x_team_trust": {
+            "synth_r": NaN,
+            "target_r": 0.25,
+            "diff": NaN,
+            "ok": false
+          },
+          "work_creativity_x_team_trust": {
+            "synth_r": NaN,
+            "target_r": 0.25,
+            "diff": NaN,
+            "ok": false
+          }
+        }
+      },
+      "recommendations": []
+    },
+    {
+      "level": 4,
+      "name": "Temporal Patterns",
+      "passed": true,
+      "score": 0.5,
+      "metrics": {
+        "work_engagement": {
+          "error": "could not compute AR(1)"
+        },
+        "psych_safety": {
+          "error": "could not compute AR(1)"
+        },
+        "work_creativity": {
+          "error": "could not compute AR(1)"
+        },
+        "team_trust": {
+          "error": "could not compute AR(1)"
+        }
+      },
+      "recommendations": []
+    },
+    {
+      "level": 6,
+      "name": "Factor Structure",
+      "passed": false,
+      "score": 0.3,
+      "metrics": {
+        "avg_inter_state_correlation": NaN
+      },
+      "recommendations": []
+    },
+    {
+      "level": 7,
+      "name": "Patterns & Extremes",
+      "passed": false,
+      "score": 0.0,
+      "metrics": {
+        "work_engagement": {
+          "pct_at_min": 0.0,
+          "pct_at_max": 0.0,
+          "range_used": 0.0,
+          "min_observed": 3.0,
+          "max_observed": 3.0,
+          "extremes_ok": true,
+          "range_ok": false
+        },
+        "psych_safety": {
+          "pct_at_min": 0.0,
+          "pct_at_max": 0.0,
+          "range_used": 0.0,
+          "min_observed": 3.0,
+          "max_observed": 3.0,
+          "extremes_ok": true,
+          "range_ok": false
+        },
+        "work_creativity": {
+          "pct_at_min": 0.0,
+          "pct_at_max": 0.0,
+          "range_used": 0.0,
+          "min_observed": 3.0,
+          "max_observed": 3.0,
+          "extremes_ok": true,
+          "range_ok": false
+        },
+        "team_trust": {
+          "pct_at_min": 0.0,
+          "pct_at_max": 0.0,
+          "range_used": 0.0,
+          "min_observed": 3.0,
+          "max_observed": 3.0,
+          "extremes_ok": true,
+          "range_ok": false
+        }
+      },
+      "recommendations": [
+        "work_engagement: only 0% of scale used; increase variance.",
+        "psych_safety: only 0% of scale used; increase variance.",
+        "work_creativity: only 0% of scale used; increase variance.",
+        "team_trust: only 0% of scale used; increase variance."
+      ]
+    }
+  ],
+  "summary": "NEEDS WORK: only 1/6 levels passed.",
+  "recommendations": [
+    "work_engagement: only 0% of scale used; increase variance.",
+    "psych_safety: only 0% of scale used; increase variance.",
+    "work_creativity: only 0% of scale used; increase variance.",
+    "team_trust: only 0% of scale used; increase variance."
+  ],
+  "neutral_targets": false
+}

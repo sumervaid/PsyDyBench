@@ -1,0 +1,23 @@
+{
+  "indicator": "social_isolation_hours",
+  "state": "work_engagement_state",
+  "claimed_meta_r": -0.2,
+  "verified_meta_r": null,
+  "source_doi": "https://doi.org/10.1177/10422587211072799",
+  "source_title": "Happy Entrepreneurs? Everywhere? A Meta-Analysis of Entrepreneurship and Wellbeing",
+  "source_year": 2022,
+  "source_openalex_id": "https://openalex.org/W4210698642",
+  "citation_claimed": "Halbesleben (2010) JOB meta: social resources",
+  "citation_matched": false,
+  "evidence_quote": "Entrepreneurship can be fulfilling and enhance wellbeing, but also highly stressful and diminish wellbeing. This meta-analytical review synthesizes 319 effect sizes from 94 studies and 82 countries to establish whether individuals derive greater wellbeing from working for themselves or for someone else. The answer is p",
+  "sample_n": null,
+  "n_studies_k": 94,
+  "confidence_claimed": "low",
+  "confidence_extraction": "low",
+  "abs_deviation": null,
+  "status": "oa_pdf_unreadable",
+  "extracted_utc": "2026-06-19T17:44:06.547628+00:00",
+  "note": "Meta-analytic source located but no focal correlation present in the abstract; requires full-text human extraction.",
+  "oa": true,
+  "oa_pdf_url": "https://doi.org/10.1177/10422587211072799"
+}

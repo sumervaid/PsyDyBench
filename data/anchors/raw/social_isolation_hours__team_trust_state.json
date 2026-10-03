@@ -1,0 +1,18 @@
+{
+  "indicator": "social_isolation_hours",
+  "state": "team_trust_state",
+  "claimed_meta_r": "-0.3",
+  "citation": "Inferred: isolation \u2248 inverse of interaction/familiarity",
+  "construct_match": "Social isolation \u2192 Trust (inverse)",
+  "confidence": "low",
+  "queries": [
+    "Social isolation Trust inverse trust in team meta-analysis",
+    "title.search:Social isolation trust meta-analytic year:None",
+    "title.search:isolation trust meta-analytic year:None",
+    "title.search:Social isolation trust year:None",
+    "title.search:trust meta-analytic year:None"
+  ],
+  "retrieved_utc": "2026-06-19T17:44:59.018070+00:00",
+  "n_candidates": 0,
+  "candidates": []
+}

@@ -1,0 +1,19 @@
+{
+  "indicator": "social_total_interaction_count",
+  "state": "team_trust_state",
+  "claimed_meta_r": "0.28",
+  "citation": "Dirks & Ferrin (2002) JAP: familiarity/interaction \u2192 trust",
+  "construct_match": "Interaction volume \u2192 Trust (familiarity)",
+  "confidence": "medium",
+  "queries": [
+    "Interaction volume Trust familiarity trust in team meta-analysis",
+    "Dirks 2002 trust in team meta-analysis",
+    "title.search:Interaction volume trust meta-analytic year:2002",
+    "title.search:volume trust meta-analytic year:2002",
+    "title.search:Interaction volume trust year:2002",
+    "title.search:trust meta-analytic year:2002"
+  ],
+  "retrieved_utc": "2026-06-19T17:45:29.975453+00:00",
+  "n_candidates": 0,
+  "candidates": []
+}

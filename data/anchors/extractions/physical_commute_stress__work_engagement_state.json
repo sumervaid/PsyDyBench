@@ -1,0 +1,23 @@
+{
+  "indicator": "physical_commute_stress",
+  "state": "work_engagement_state",
+  "claimed_meta_r": -0.15,
+  "verified_meta_r": null,
+  "source_doi": "https://doi.org/10.1002/job.2217",
+  "source_title": "Recovery from work\u2010related effort: A meta\u2010analysis",
+  "source_year": 2017,
+  "source_openalex_id": "https://openalex.org/W2744087676",
+  "citation_claimed": "Murphy et al. (2023) Org Psych Rev meta",
+  "citation_matched": false,
+  "evidence_quote": "Summary This meta\u2010analytic study examines the antecedents and outcomes of four recovery experiences: psychological detachment, relaxation, mastery, and control. Using 299 effect sizes from 54 independent samples ( N = 26,592), we extend theory by integrating recovery experiences into the challenge\u2013hindrance framework,",
+  "sample_n": 26592,
+  "n_studies_k": 54,
+  "confidence_claimed": "high",
+  "confidence_extraction": "low",
+  "abs_deviation": null,
+  "status": "oa_pdf_unreadable",
+  "extracted_utc": "2026-06-19T17:44:06.512709+00:00",
+  "note": "Meta-analytic source located but no focal correlation present in the abstract; requires full-text human extraction.",
+  "oa": true,
+  "oa_pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/job.2217"
+}

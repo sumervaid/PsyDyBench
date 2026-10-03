@@ -1,0 +1,18 @@
+{
+  "indicator": "psychological_rumination_level",
+  "state": "team_trust_state",
+  "claimed_meta_r": "-0.18",
+  "citation": "Colquitt et al. (2007); negative cognition path",
+  "construct_match": "Rumination \u2192 Trust (negative appraisal)",
+  "confidence": "low",
+  "queries": [
+    "Rumination Trust negative appraisal trust in team meta-analysis",
+    "Colquitt 2007 trust in team meta-analysis",
+    "title.search:Rumination trust meta-analytic year:2007",
+    "title.search:trust meta-analytic year:2007",
+    "title.search:Rumination trust year:2007"
+  ],
+  "retrieved_utc": "2026-06-19T17:45:10.270895+00:00",
+  "n_candidates": 0,
+  "candidates": []
+}

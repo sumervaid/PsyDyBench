@@ -1,0 +1,5 @@
+# Only needed for the optional, API-calling stages:
+#   - scripts/magnitude/dspy_tune.py, dspy_tune_mag.py   (MIPROv2 prompt tuning)
+#   - scripts/scraping/fetch_fulltext.py                 (open-access PDF retrieval for anchor verification)
+dspy==2.6.27
+PyMuPDF==1.26.5
